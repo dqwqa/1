@@ -7,6 +7,11 @@ on:
     - cron: '5 4 * * *'
     - cron: '5 8 * * *'
     - cron: '5 12 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'runtime-fixes.mjs'
+      - '.github/workflows/merchant.yml'
 
 permissions:
   contents: write
@@ -24,4 +29,69 @@ jobs:
       TZ: Asia/Shanghai
       SMTP_USER: ${{ secrets.SMTP_USER }}
       SMTP_AUTH_CODE: ${{ secrets.SMTP_AUTH_CODE }}
-      ALERT_EMAIL: 15862845902@
+      ALERT_EMAILS: ${{ secrets.ALERT_EMAILS }}
+      ALERT_EMAIL: 15862845902@163.com
+      SMTP_HOST: smtp.163.com
+      SMTP_PORT: '465'
+      SMTP_SECURE: 'true'
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: 安装依赖
+        run: npm install --no-audit --no-fund
+
+      - name: 合并正式兼容修复
+        run: node runtime-fixes.mjs
+
+      - name: 保存正式源码修复
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add watcher.mjs
+          if git diff --cached --quiet; then
+            echo '正式源码已经包含修复'
+          else
+            git commit -m 'fix: finalize auxiliary validation and recipients [skip ci]'
+            git push
+          fi
+
+      - name: 安装 Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: 运行单元测试
+        run: npm test
+
+      - name: 检查远行商人
+        id: merchant
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node watcher.mjs
+
+      - name: 保存最新状态
+        if: always()
+        run: |
+          if [ ! -d status ]; then
+            echo '没有状态文件需要保存'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add status/
+          if git diff --cached --quiet; then
+            echo '状态没有变化'
+            exit 0
+          fi
+          git commit -m 'chore: update merchant status [skip ci]'
+          git push
+
+      - name: 标记监控失败
+        if: steps.merchant.outcome == 'failure'
+        run: exit 1
