@@ -426,7 +426,19 @@ export function normalizeArkmeng(result, expectedSlot) {
     return item.start <= now && now < item.end;
   });
   const rows = currentRows.length ? currentRows : itemRows;
-  const items = validateAndNormalizeItems(rows, '洛克万事屋');
+  const items = rows.map(item => {
+    const name = String(item.name || '').trim();
+    if (!name) return null;
+    const price = Number.isFinite(item.price) && item.price >= 0 ? item.price : undefined;
+    const limit = Number.isInteger(item.limit) && item.limit > 0 ? item.limit : undefined;
+    return {
+      name,
+      priceRaw: item.priceRaw || (price != null ? String(price) : ''),
+      price,
+      limit,
+    };
+  }).filter(Boolean);
+  if (!items.length) throw new Error('洛克万事屋未返回可识别的商品名称');
 
   const starts = rows.map(item => item.start).filter(Boolean);
   const ends = rows.map(item => item.end).filter(Boolean);
@@ -460,8 +472,10 @@ export function crossValidate(primaryItems, auxiliaryItems) {
       conflicts.push(`辅助源存在主源没有的商品“${name}”`);
       continue;
     }
-    if (main.price !== aux.price || main.limit !== aux.limit) {
-      conflicts.push(`“${name}”价格/限购冲突：主源 ${main.price}/${main.limit}，辅助源 ${aux.price}/${aux.limit}`);
+    const priceConflict = Number.isFinite(aux.price) && main.price !== aux.price;
+    const limitConflict = Number.isInteger(aux.limit) && aux.limit > 0 && main.limit !== aux.limit;
+    if (priceConflict || limitConflict) {
+      conflicts.push(`“${name}”已提供字段冲突：主源 ${main.price}/${main.limit}，辅助源 ${aux.price ?? '缺失'}/${aux.limit ?? '缺失'}`);
     }
   }
   const primaryWatch = WATCH_ITEMS.filter(name => primary.has(name));
@@ -535,7 +549,7 @@ async function createIssue({ title, body, labels = [], marker }) {
 async function sendSmtpMail(subject, text) {
   const user = process.env.SMTP_USER;
   const pass = process.env.SMTP_AUTH_CODE;
-  const to = process.env.ALERT_EMAIL || '15862845902@163.com';
+  const to = process.env.ALERT_EMAILS || process.env.ALERT_EMAIL || '15862845902@163.com';
   if (!user || !pass) return { sent: false, reason: 'SMTP secrets not configured' };
   const nodemailer = await import('nodemailer');
   const transporter = nodemailer.default.createTransport({
