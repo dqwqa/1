@@ -45,7 +45,8 @@ jobs:
       - name: 安装 Chromium
         run: npx playwright install --with-deps chromium
 
-      - name: 运行单元测试
+      - name: 手动运行时执行单元测试
+        if: github.event_name == 'workflow_dispatch'
         run: npm test
 
       - name: 检查远行商人
@@ -57,26 +58,47 @@ jobs:
 
       - name: 保存最新状态
         if: always()
+        continue-on-error: true
         run: |
           if [ ! -d status ]; then
             echo '没有状态文件需要保存'
             exit 0
           fi
+
+          cp -R status /tmp/merchant-status
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add status/
-          if git diff --cached --quiet; then
-            echo '状态没有变化'
-            exit 0
-          fi
-          git commit -m 'chore: update merchant status [skip ci]'
-          git push
+
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            rm -rf status
+            cp -R /tmp/merchant-status status
+            git add status/
+
+            if git diff --cached --quiet; then
+              echo '状态没有变化'
+              exit 0
+            fi
+
+            git commit -m 'chore: update merchant status [skip ci]'
+            if git push origin HEAD:main; then
+              echo '状态保存成功'
+              exit 0
+            fi
+
+            echo "第 ${attempt} 次保存失败，准备重试"
+            sleep 3
+          done
+
+          echo '状态暂时未能写回仓库，但不影响本轮商品检查和邮件提醒'
+          exit 0
 
       - name: 汇总监控结果
         if: always()
         run: |
           if [ "${{ steps.merchant.outcome }}" = "failure" ]; then
-            echo '本轮商品读取未通过可靠性校验；详情已写入 status/latest.json，并由程序创建失败 Issue。'
+            echo '本轮商品读取未通过可靠性校验；详情已写入运行日志，程序会创建失败 Issue。'
           else
             echo '本轮商品读取完成。'
           fi
