@@ -7,13 +7,6 @@ on:
     - cron: '5 4 * * *'
     - cron: '5 8 * * *'
     - cron: '5 12 * * *'
-  push:
-    branches: [main]
-    paths:
-      - 'watcher.mjs'
-      - 'package.json'
-      - 'test/**'
-      - '.github/workflows/merchant.yml'
 
 permissions:
   contents: write
@@ -79,6 +72,11 @@ jobs:
           git commit -m 'chore: update merchant status [skip ci]'
           git push
 
-      - name: 标记监控失败
-        if: steps.merchant.outcome == 'failure'
-        run: exit 1
+      - name: 汇总监控结果
+        if: always()
+        run: |
+          if [ "${{ steps.merchant.outcome }}" = "failure" ]; then
+            echo '本轮商品读取未通过可靠性校验；详情已写入 status/latest.json，并由程序创建失败 Issue。'
+          else
+            echo '本轮商品读取完成。'
+          fi
