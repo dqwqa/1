@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-08-01T06:04:59.918Z",
+  "checkedAtBeijing": "2026-08-01 14:04:59",
+  "slot": {
+    "index": 2,
+    "startHour": 12,
+    "endHour": 16,
+    "label": "12:00-16:00",
+    "key": "2026-08-01-12",
+    "date": "2026-08-01"
+  },
+  "watchItems": [
+    "国王球",
+    "棱镜球",
+    "镜面相框",
+    "炫彩蛋",
+    "炫彩精灵蛋",
+    "首领血脉秘药",
+    "祝福项坠"
+  ],
+  "status": "ok",
+  "signature": "58fc2a48d70bb36eb4d036a8772f70ae376f46f3be728daa20bfa48d35e78a92",
+  "primary": {
+    "source": "onebiji",
+    "transport": "http",
+    "serverNowBeijing": "2026-08-01 14:05:00",
+    "responseDate": "Sat, 01 Aug 2026 06:05:00 GMT",
+    "doubleReadConsistent": true
+  },
+  "auxiliary": {
+    "status": "unavailable",
+    "error": "洛克万事屋商品“光合球”价格不可解析："
+  },
+  "itemCount": 5,
+  "items": [
+    {
+      "name": "残缺魔镜",
+      "priceRaw": "48w",
+      "price": 480000,
+      "limit": 1
+    },
+    {
+      "name": "适格钥匙",
+      "priceRaw": "32w",
+      "price": 320000,
+      "limit": 1
+    },
+    {
+      "name": "能力钥匙",
+      "priceRaw": "16w",
+      "price": 160000,
+      "limit": 6
+    },
+    {
+      "name": "光合球",
+      "priceRaw": "3000",
+      "price": 3000,
+      "limit": 200
+    },
+    {
+      "name": "蓝晶碧玺",
+      "priceRaw": "1000",
+      "price": 1000,
+      "limit": 100
+    }
+  ],
+  "matches": [],
+  "notification": null
+}
