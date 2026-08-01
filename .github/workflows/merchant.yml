@@ -2,6 +2,12 @@ name: 洛克王国远行商人监控
 
 on:
   workflow_dispatch:
+    inputs:
+      send_smtp_test:
+        description: 发送一次 SMTP 测试邮件
+        required: false
+        default: true
+        type: boolean
   schedule:
     - cron: '5 0 * * *'
     - cron: '5 4 * * *'
@@ -11,6 +17,7 @@ on:
     branches: [main]
     paths:
       - 'watcher.mjs'
+      - 'smtp-test.mjs'
       - 'package.json'
       - 'test/**'
       - '.github/workflows/merchant.yml'
@@ -26,7 +33,7 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     env:
       TZ: Asia/Shanghai
       SMTP_USER: ${{ secrets.SMTP_USER }}
@@ -44,7 +51,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: npm
 
       - name: 安装依赖
         run: npm install --no-audit --no-fund
@@ -52,22 +58,37 @@ jobs:
       - name: 安装 Chromium
         run: npx playwright install --with-deps chromium
 
-      - name: 运行测试
+      - name: 运行单元测试
         run: npm test
 
+      - name: 手动运行时测试 SMTP 邮件
+        if: github.event_name == 'workflow_dispatch' && inputs.send_smtp_test
+        run: node smtp-test.mjs
+
       - name: 检查远行商人
+        id: merchant
         continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node watcher.mjs
 
-      - name: 保存状态
+      - name: 保存最新状态
         if: always()
         run: |
-          if [ -d status ]; then
-            git config user.name 'github-actions[bot]'
-            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add status/
-            git commit -m 'chore: update merchant status [skip ci]' || true
-            git push || true
+          if [ ! -d status ]; then
+            echo '没有状态文件需要保存'
+            exit 0
           fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add status/
+          if git diff --cached --quiet; then
+            echo '状态没有变化'
+            exit 0
+          fi
+          git commit -m 'chore: update merchant status [skip ci]'
+          git push
+
+      - name: 标记监控失败
+        if: steps.merchant.outcome == 'failure'
+        run: exit 1
