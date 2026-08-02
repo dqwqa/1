@@ -42,6 +42,23 @@ jobs:
       - name: 安装依赖
         run: npm install --no-audit --no-fund
 
+      - name: 应用实时主源优先策略
+        run: node apply-source-policy.mjs
+
+      - name: 永久保存主源优先修复
+        continue-on-error: true
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add watcher.mjs
+          if git diff --cached --quiet; then
+            echo '主程序已经包含实时主源优先策略'
+            exit 0
+          fi
+          git commit -m 'fix: make fresh onebiji data authoritative [skip ci]'
+          git pull --rebase origin main
+          git push origin HEAD:main
+
       - name: 安装 Chromium
         run: npx playwright install --with-deps chromium
 
@@ -98,7 +115,7 @@ jobs:
         if: always()
         run: |
           if [ "${{ steps.merchant.outcome }}" = "failure" ]; then
-            echo '本轮商品读取未通过可靠性校验；详情已写入运行日志，程序会创建失败 Issue。'
+            echo '本轮主源读取未通过可靠性校验；详情已写入运行日志，程序会创建失败 Issue。'
           else
-            echo '本轮商品读取完成。'
+            echo '本轮商品读取完成；辅助源仅供参考，不会阻断提醒。'
           fi
