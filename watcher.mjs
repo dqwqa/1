@@ -624,11 +624,23 @@ export async function run() {
     try {
       const verified = await readArkmengVerified(slot);
       const validation = crossValidate(primary.first.items, verified.first.items);
-      if (!validation.ok) throw new Error(`AUXILIARY_CONFLICT:${validation.conflicts.join('；')}`);
-      auxiliary = { status: 'ok', itemCount: verified.first.items.length, validation, signature: verified.signature };
+      auxiliary = {
+        status: validation.ok ? 'ok_reference' : 'conflict_ignored',
+        authoritative: false,
+        note: validation.ok
+          ? '辅助源仅供参考；最终结果以好游快爆实时商品卡片为准'
+          : '辅助源与好游快爆实时主源不一致，已忽略辅助源，不阻断本轮商品判断',
+        itemCount: verified.first.items.length,
+        validation,
+        signature: verified.signature,
+      };
     } catch (error) {
-      if (String(error.message || '').startsWith('AUXILIARY_CONFLICT:')) throw error;
-      auxiliary = { status: 'unavailable', error: error.message };
+      auxiliary = {
+        status: 'unavailable_ignored',
+        authoritative: false,
+        note: '辅助源不可用或轮次过期，已忽略；最终结果以好游快爆实时商品卡片为准',
+        error: error.message,
+      };
     }
 
     const items = primary.first.items;
