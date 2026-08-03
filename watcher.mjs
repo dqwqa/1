@@ -571,14 +571,12 @@ async function notifyMatch(status) {
     `- 当前轮次：${status.slot.label}`,
     `- 数据获取：好游快爆 ${status.primary.transport} 双次一致`,
     `- 完整商品数：${status.items.length}`,
-    `- 辅助源：${status.auxiliary.status}`,
     '',
     '| 命中商品 | 原始价格 | 标准价格 | 限购 |',
     '|---|---:|---:|---:|',
     markdownItems(matched),
     '',
     `- 好游快爆：${ONEBIJI_URL}`,
-    `- 洛克万事屋：${ARKMENG_BASE_URL}/merchant`,
   ].join('\n');
   const issue = await createIssue({ title: `【远行商人提醒】${matched.map(item => item.name).join('、')}｜${status.slot.label}`, body, labels: [], marker });
   if (!issue.created) {
@@ -622,28 +620,11 @@ export async function run() {
 
   try {
     const primary = await readOnebijiVerified(slot);
-    let auxiliary;
-    try {
-      const verified = await readArkmengVerified(slot);
-      const validation = crossValidate(primary.first.items, verified.first.items);
-      auxiliary = {
-        status: validation.ok ? 'ok_reference' : 'conflict_ignored',
-        authoritative: false,
-        note: validation.ok
-          ? '辅助源仅供参考；最终结果以好游快爆实时商品卡片为准'
-          : '辅助源与好游快爆实时主源不一致，已忽略辅助源，不阻断本轮商品判断',
-        itemCount: verified.first.items.length,
-        validation,
-        signature: verified.signature,
-      };
-    } catch (error) {
-      auxiliary = {
-        status: 'unavailable_ignored',
-        authoritative: false,
-        note: '辅助源不可用或轮次过期，已忽略；最终结果以好游快爆实时商品卡片为准',
-        error: error.message,
-      };
-    }
+    const sourcePolicy = {
+      authoritativeSource: 'onebiji',
+      auxiliarySources: [],
+      note: '仅使用好游快爆实时商品卡片；未调用任何辅助数据源',
+    };
 
     const items = primary.first.items;
     const matches = items.filter(item => WATCH_ITEMS.includes(item.name));
@@ -659,7 +640,7 @@ export async function run() {
         responseDate: primary.first.responseDate,
         doubleReadConsistent: true,
       },
-      auxiliary,
+      sourcePolicy,
       itemCount: items.length,
       items,
       matches,
