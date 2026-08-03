@@ -595,7 +595,6 @@ async function notifyFailure(status) {
     `- 预期轮次：${status.slot?.label || '非营业时间'}`,
     `- 错误：${status.error}`,
     `- 好游快爆：${ONEBIJI_URL}`,
-    `- 洛克万事屋：${ARKMENG_BASE_URL}/merchant`,
   ].join('\n');
   return createIssue({ title: `【远行商人读取失败】${status.slot?.label || status.checkedAtBeijing}`, body, labels: [], marker });
 }
