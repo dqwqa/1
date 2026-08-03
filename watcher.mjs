@@ -537,11 +537,10 @@ async function issueExists(marker) {
 
 async function createIssue({ title, body, labels = [], marker }) {
   if (await issueExists(marker)) return { created: false, reason: 'duplicate' };
-  const owner = process.env.GITHUB_REPOSITORY?.split('/')[0];
   const issue = await githubRequest('/issues', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ title, body: `${body}\n\n<!-- ${marker} -->`, labels, assignees: owner ? [owner] : [] }),
+    body: JSON.stringify({ title, body: `${body}\n\n<!-- ${marker} -->`, labels }),
   });
   return { created: true, number: issue.number, url: issue.html_url };
 }
@@ -563,10 +562,10 @@ async function sendSmtpMail(subject, text) {
 }
 
 async function notifyMatch(status) {
-  const marker = `roco-match:${status.slot.key}:${status.signature}`;
+  const marker = `roco-match:${status.slot.key}`;
   const matched = status.matches;
   const body = [
-    `@${process.env.GITHUB_REPOSITORY?.split('/')[0] || 'owner'} 发现远行商人关注商品。`,
+    '发现远行商人关注商品。',
     '',
     `- 北京时间：${status.checkedAtBeijing}`,
     `- 当前轮次：${status.slot.label}`,
@@ -582,6 +581,9 @@ async function notifyMatch(status) {
     `- 洛克万事屋：${ARKMENG_BASE_URL}/merchant`,
   ].join('\n');
   const issue = await createIssue({ title: `【远行商人提醒】${matched.map(item => item.name).join('、')}｜${status.slot.label}`, body, labels: [], marker });
+  if (!issue.created) {
+    return { issue, mail: { sent: false, reason: 'duplicate merchant slot suppressed' } };
+  }
   const mail = await sendSmtpMail('洛克王国远行商人提醒：发现关注商品', body);
   return { issue, mail };
 }
