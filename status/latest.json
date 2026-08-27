@@ -1,14 +1,7 @@
 {
-  "checkedAt": "2026-08-27T15:01:43.397Z",
-  "checkedAtBeijing": "2026-08-27 23:01:43",
-  "slot": {
-    "index": 4,
-    "startHour": 20,
-    "endHour": 24,
-    "label": "20:00-24:00",
-    "key": "2026-08-27-20",
-    "date": "2026-08-27"
-  },
+  "checkedAt": "2026-08-27T19:02:48.349Z",
+  "checkedAtBeijing": "2026-08-28 03:02:48",
+  "slot": null,
   "watchItems": [
     "国王球",
     "棱镜球",
@@ -18,41 +11,6 @@
     "首领血脉秘药",
     "祝福项坠"
   ],
-  "status": "ok",
-  "signature": "9a2bc5e847b0f69bbc6a133d8ad8c7d889767b426a0af4288c02d6ea7788ab45",
-  "primary": {
-    "source": "onebiji",
-    "transport": "http",
-    "serverNowBeijing": "2026-08-27 23:01:44",
-    "responseDate": "Thu, 27 Aug 2026 15:01:44 GMT",
-    "doubleReadConsistent": true
-  },
-  "sourcePolicy": {
-    "authoritativeSource": "onebiji",
-    "auxiliarySources": [],
-    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
-  },
-  "itemCount": 3,
-  "items": [
-    {
-      "name": "黑晶琉璃",
-      "priceRaw": "1000",
-      "price": 1000,
-      "limit": 100
-    },
-    {
-      "name": "萌系血脉秘药",
-      "priceRaw": "16w",
-      "price": 160000,
-      "limit": 3
-    },
-    {
-      "name": "魔力果",
-      "priceRaw": "6000",
-      "price": 6000,
-      "limit": 20
-    }
-  ],
-  "matches": [],
-  "notification": null
+  "status": "closed",
+  "message": "当前不在远行商人营业时间"
 }
