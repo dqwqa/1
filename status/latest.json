@@ -1,14 +1,7 @@
 {
-  "checkedAt": "2026-08-30T13:46:19.752Z",
-  "checkedAtBeijing": "2026-08-30 21:46:19",
-  "slot": {
-    "index": 4,
-    "startHour": 20,
-    "endHour": 24,
-    "label": "20:00-24:00",
-    "key": "2026-08-30-20",
-    "date": "2026-08-30"
-  },
+  "checkedAt": "2026-08-30T16:10:19.972Z",
+  "checkedAtBeijing": "2026-08-31 00:10:19",
+  "slot": null,
   "watchItems": [
     "国王球",
     "棱镜球",
@@ -18,65 +11,6 @@
     "首领血脉秘药",
     "祝福项坠"
   ],
-  "status": "ok",
-  "signature": "8869ada75f26a8237447972587ae54c16278b127d273ab0049419d4d8ed64b82",
-  "primary": {
-    "source": "onebiji",
-    "transport": "http",
-    "serverNowBeijing": "2026-08-30 21:46:21",
-    "responseDate": "Sun, 30 Aug 2026 13:46:21 GMT",
-    "doubleReadConsistent": true
-  },
-  "sourcePolicy": {
-    "authoritativeSource": "onebiji",
-    "auxiliarySources": [],
-    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
-  },
-  "itemCount": 7,
-  "items": [
-    {
-      "name": "残缺魔镜",
-      "priceRaw": "48w",
-      "price": 480000,
-      "limit": 1
-    },
-    {
-      "name": "适格钥匙",
-      "priceRaw": "32w",
-      "price": 320000,
-      "limit": 1
-    },
-    {
-      "name": "能力钥匙",
-      "priceRaw": "16w",
-      "price": 160000,
-      "limit": 6
-    },
-    {
-      "name": "淘沙球",
-      "priceRaw": "3000",
-      "price": 3000,
-      "limit": 100
-    },
-    {
-      "name": "魔力果",
-      "priceRaw": "6000",
-      "price": 6000,
-      "limit": 20
-    },
-    {
-      "name": "火系粉尘",
-      "priceRaw": "500",
-      "price": 500,
-      "limit": 100
-    },
-    {
-      "name": "萌系粉尘",
-      "priceRaw": "500",
-      "price": 500,
-      "limit": 100
-    }
-  ],
-  "matches": [],
-  "notification": null
+  "status": "closed",
+  "message": "当前不在远行商人营业时间"
 }
