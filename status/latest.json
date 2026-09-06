@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-09-06T12:06:18.984Z",
-  "checkedAtBeijing": "2026-09-06 20:06:18",
+  "checkedAt": "2026-09-06T15:01:33.168Z",
+  "checkedAtBeijing": "2026-09-06 23:01:33",
   "slot": {
     "index": 4,
     "startHour": 20,
@@ -23,8 +23,8 @@
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-09-06 20:06:19",
-    "responseDate": "Sun, 06 Sep 2026 12:06:20 GMT",
+    "serverNowBeijing": "2026-09-06 23:01:34",
+    "responseDate": "Sun, 06 Sep 2026 15:01:34 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
