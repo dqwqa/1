@@ -1,14 +1,7 @@
 {
-  "checkedAt": "2026-09-09T12:56:18.192Z",
-  "checkedAtBeijing": "2026-09-09 20:56:18",
-  "slot": {
-    "index": 4,
-    "startHour": 20,
-    "endHour": 24,
-    "label": "20:00-24:00",
-    "key": "2026-09-09-20",
-    "date": "2026-09-09"
-  },
+  "checkedAt": "2026-09-09T16:01:41.325Z",
+  "checkedAtBeijing": "2026-09-10 00:01:41",
+  "slot": null,
   "watchItems": [
     "国王球",
     "棱镜球",
@@ -18,11 +11,6 @@
     "首领血脉秘药",
     "祝福项坠"
   ],
-  "status": "error",
-  "error": "Error: Invalid login: 535 Error: authentication failed\n    at SMTPConnection._formatError (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:809:19)\n    at SMTPConnection._actionAUTHComplete (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:1588:34)\n    at SMTPConnection.<anonymous> (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:556:26)\n    at SMTPConnection._processResponse (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:993:20)\n    at SMTPConnection._onData (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:774:14)\n    at SMTPConnection._onSocketData (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)\n    at TLSSocket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)",
-  "notification": {
-    "created": true,
-    "number": 21,
-    "url": "https://github.com/dqwqa/1/issues/21"
-  }
+  "status": "closed",
+  "message": "当前不在远行商人营业时间"
 }
