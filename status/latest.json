@@ -1,14 +1,7 @@
 {
-  "checkedAt": "2026-09-21T15:03:29.682Z",
-  "checkedAtBeijing": "2026-09-21 23:03:29",
-  "slot": {
-    "index": 4,
-    "startHour": 20,
-    "endHour": 24,
-    "label": "20:00-24:00",
-    "key": "2026-09-21-20",
-    "date": "2026-09-21"
-  },
+  "checkedAt": "2026-09-21T17:56:11.567Z",
+  "checkedAtBeijing": "2026-09-22 01:56:11",
+  "slot": null,
   "watchItems": [
     "国王球",
     "棱镜球",
@@ -18,29 +11,6 @@
     "首领血脉秘药",
     "祝福项坠"
   ],
-  "status": "ok",
-  "signature": "9e6c698794e71105bcf1996634386ff4e6f87717b7e94cdf37687639a201cf0e",
-  "primary": {
-    "source": "onebiji",
-    "transport": "http",
-    "serverNowBeijing": "2026-09-21 23:03:30",
-    "responseDate": "Mon, 21 Sep 2026 15:03:30 GMT",
-    "doubleReadConsistent": true
-  },
-  "sourcePolicy": {
-    "authoritativeSource": "onebiji",
-    "auxiliarySources": [],
-    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
-  },
-  "itemCount": 1,
-  "items": [
-    {
-      "name": "冰系粉尘",
-      "priceRaw": "500",
-      "price": 500,
-      "limit": 100
-    }
-  ],
-  "matches": [],
-  "notification": null
+  "status": "closed",
+  "message": "当前不在远行商人营业时间"
 }
