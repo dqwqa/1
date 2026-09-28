@@ -1,14 +1,7 @@
 {
-  "checkedAt": "2026-09-28T10:39:53.450Z",
-  "checkedAtBeijing": "2026-09-28 18:39:53",
-  "slot": {
-    "index": 3,
-    "startHour": 16,
-    "endHour": 20,
-    "label": "16:00-20:00",
-    "key": "2026-09-28-16",
-    "date": "2026-09-28"
-  },
+  "checkedAt": "2026-09-28T16:43:13.237Z",
+  "checkedAtBeijing": "2026-09-29 00:43:13",
+  "slot": null,
   "watchItems": [
     "国王球",
     "棱镜球",
@@ -18,29 +11,6 @@
     "首领血脉秘药",
     "祝福项坠"
   ],
-  "status": "ok",
-  "signature": "37e93734745193f5717c89b0c2afe8eeee9aa662350bfb1333a776b232d599ee",
-  "primary": {
-    "source": "onebiji",
-    "transport": "http",
-    "serverNowBeijing": "2026-09-28 18:39:54",
-    "responseDate": "Mon, 28 Sep 2026 10:39:54 GMT",
-    "doubleReadConsistent": true
-  },
-  "sourcePolicy": {
-    "authoritativeSource": "onebiji",
-    "auxiliarySources": [],
-    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
-  },
-  "itemCount": 1,
-  "items": [
-    {
-      "name": "电系粉尘",
-      "priceRaw": "500",
-      "price": 500,
-      "limit": 100
-    }
-  ],
-  "matches": [],
-  "notification": null
+  "status": "closed",
+  "message": "当前不在远行商人营业时间"
 }
