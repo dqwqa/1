@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-11T10:38:45.641Z",
-  "checkedAtBeijing": "2026-10-11 18:38:45",
+  "checkedAt": "2026-10-11T14:52:36.952Z",
+  "checkedAtBeijing": "2026-10-11 22:52:36",
   "slot": {
-    "index": 3,
-    "startHour": 16,
-    "endHour": 20,
-    "label": "16:00-20:00",
-    "key": "2026-10-11-16",
+    "index": 4,
+    "startHour": 20,
+    "endHour": 24,
+    "label": "20:00-24:00",
+    "key": "2026-10-11-20",
     "date": "2026-10-11"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "ac4459eb02b480b7b20bc4a922267ffdfb4ae29a610f0e832deb0a18a3107103",
+  "signature": "855bb3ffa873fd9472ac45e4815ec70b0fe8d744c847db940946f69577e39eab",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-10-11 18:38:46",
-    "responseDate": "Sun, 11 Oct 2026 10:38:46 GMT",
+    "serverNowBeijing": "2026-10-11 22:52:37",
+    "responseDate": "Sun, 11 Oct 2026 14:52:37 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -47,19 +47,19 @@
       "limit": 100
     },
     {
-      "name": "紫莲刚玉",
+      "name": "黑晶琉璃",
       "priceRaw": "1000",
       "price": 1000,
       "limit": 100
     },
     {
-      "name": "地系血脉秘药",
-      "priceRaw": "16w",
-      "price": 160000,
-      "limit": 3
+      "name": "黄石榴石",
+      "priceRaw": "1000",
+      "price": 1000,
+      "limit": 100
     },
     {
-      "name": "萌系粉尘",
+      "name": "火系粉尘",
       "priceRaw": "500",
       "price": 500,
       "limit": 100
