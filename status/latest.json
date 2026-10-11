@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-11T05:37:02.131Z",
-  "checkedAtBeijing": "2026-10-11 13:37:02",
+  "checkedAt": "2026-10-11T10:38:45.641Z",
+  "checkedAtBeijing": "2026-10-11 18:38:45",
   "slot": {
-    "index": 2,
-    "startHour": 12,
-    "endHour": 16,
-    "label": "12:00-16:00",
-    "key": "2026-10-11-12",
+    "index": 3,
+    "startHour": 16,
+    "endHour": 20,
+    "label": "16:00-20:00",
+    "key": "2026-10-11-16",
     "date": "2026-10-11"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "f2dd7dee7f26795b2085b5d055176ee9ad5a217ff8cba256a06521a32e57011f",
+  "signature": "ac4459eb02b480b7b20bc4a922267ffdfb4ae29a610f0e832deb0a18a3107103",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-10-11 13:37:02",
-    "responseDate": "Sun, 11 Oct 2026 05:37:03 GMT",
+    "serverNowBeijing": "2026-10-11 18:38:46",
+    "responseDate": "Sun, 11 Oct 2026 10:38:46 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -47,19 +47,19 @@
       "limit": 100
     },
     {
-      "name": "神奇的蛋",
-      "priceRaw": "36000",
-      "price": 36000,
-      "limit": 5
-    },
-    {
-      "name": "幽系粉尘",
-      "priceRaw": "500",
-      "price": 500,
+      "name": "紫莲刚玉",
+      "priceRaw": "1000",
+      "price": 1000,
       "limit": 100
     },
     {
-      "name": "幻系粉尘",
+      "name": "地系血脉秘药",
+      "priceRaw": "16w",
+      "price": 160000,
+      "limit": 3
+    },
+    {
+      "name": "萌系粉尘",
       "priceRaw": "500",
       "price": 500,
       "limit": 100
