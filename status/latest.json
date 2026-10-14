@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-14T04:44:12.481Z",
-  "checkedAtBeijing": "2026-10-14 12:44:12",
+  "checkedAt": "2026-10-14T09:20:50.369Z",
+  "checkedAtBeijing": "2026-10-14 17:20:50",
   "slot": {
-    "index": 2,
-    "startHour": 12,
-    "endHour": 16,
-    "label": "12:00-16:00",
-    "key": "2026-10-14-12",
+    "index": 3,
+    "startHour": 16,
+    "endHour": 20,
+    "label": "16:00-20:00",
+    "key": "2026-10-14-16",
     "date": "2026-10-14"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "f23d4531e2fe8d517c6e63312a586f2e3642dabd4437aa7588f1e01e7100924a",
+  "signature": "f3f99b218c2f02361c8493b03cab35f9adf955d6ccbe57cd894a921a410764b5",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-10-14 12:44:12",
-    "responseDate": "Wed, 14 Oct 2026 04:44:13 GMT",
+    "serverNowBeijing": "2026-10-14 17:20:51",
+    "responseDate": "Wed, 14 Oct 2026 09:20:51 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -32,19 +32,13 @@
     "auxiliarySources": [],
     "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
   },
-  "itemCount": 3,
+  "itemCount": 2,
   "items": [
     {
-      "name": "黄石榴石",
+      "name": "紫莲刚玉",
       "priceRaw": "1000",
       "price": 1000,
       "limit": 100
-    },
-    {
-      "name": "冰系血脉秘药",
-      "priceRaw": "16w",
-      "price": 160000,
-      "limit": 3
     },
     {
       "name": "魔力果",
