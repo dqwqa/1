@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-10-16T13:11:34.090Z",
+  "checkedAtBeijing": "2026-10-16 21:11:34",
+  "slot": {
+    "index": 4,
+    "startHour": 20,
+    "endHour": 24,
+    "label": "20:00-24:00",
+    "key": "2026-10-16-20",
+    "date": "2026-10-16"
+  },
+  "watchItems": [
+    "国王球",
+    "棱镜球",
+    "镜面相框",
+    "炫彩蛋",
+    "炫彩精灵蛋",
+    "首领血脉秘药",
+    "祝福项坠"
+  ],
+  "status": "ok",
+  "signature": "02391d9f5bda3f10c55ec7f6982ea01af3742cdf4db9a452e7881ded9c6ad224",
+  "primary": {
+    "source": "onebiji",
+    "transport": "http",
+    "serverNowBeijing": "2026-10-16 21:11:35",
+    "responseDate": "Fri, 16 Oct 2026 13:11:35 GMT",
+    "doubleReadConsistent": true
+  },
+  "sourcePolicy": {
+    "authoritativeSource": "onebiji",
+    "auxiliarySources": [],
+    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
+  },
+  "itemCount": 3,
+  "items": [
+    {
+      "name": "美妙球",
+      "priceRaw": "3000",
+      "price": 3000,
+      "limit": 200
+    },
+    {
+      "name": "紫莲刚玉",
+      "priceRaw": "1000",
+      "price": 1000,
+      "limit": 100
+    },
+    {
+      "name": "龙系粉尘",
+      "priceRaw": "500",
+      "price": 500,
+      "limit": 100
+    }
+  ],
+  "matches": [],
+  "notification": null
+}
