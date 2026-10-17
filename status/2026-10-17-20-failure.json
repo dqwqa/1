@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-17T12:08:07.125Z",
-  "checkedAtBeijing": "2026-10-17 20:08:07",
+  "checkedAt": "2026-10-17T15:04:38.268Z",
+  "checkedAtBeijing": "2026-10-17 23:04:38",
   "slot": {
     "index": 4,
     "startHour": 20,
@@ -21,8 +21,7 @@
   "status": "error",
   "error": "Error: HTTP：好游快爆出现重复商品：黄石榴石、魔力果；Chromium：好游快爆出现重复商品：黄石榴石、魔力果\n    at readOnebijiVerified (file:///home/runner/work/1/1/watcher.mjs:347:9)\n    at async run (file:///home/runner/work/1/1/watcher.mjs:621:21)\n    at async file:///home/runner/work/1/1/watcher.mjs:672:3",
   "notification": {
-    "created": true,
-    "number": 62,
-    "url": "https://github.com/dqwqa/1/issues/62"
+    "created": false,
+    "reason": "duplicate"
   }
 }
