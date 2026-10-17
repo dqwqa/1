@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-17T04:14:37.360Z",
-  "checkedAtBeijing": "2026-10-17 12:14:37",
+  "checkedAt": "2026-10-17T08:18:36.888Z",
+  "checkedAtBeijing": "2026-10-17 16:18:36",
   "slot": {
-    "index": 2,
-    "startHour": 12,
-    "endHour": 16,
-    "label": "12:00-16:00",
-    "key": "2026-10-17-12",
+    "index": 3,
+    "startHour": 16,
+    "endHour": 20,
+    "label": "16:00-20:00",
+    "key": "2026-10-17-16",
     "date": "2026-10-17"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "d4b9a57f487c521664abae917c7dac36d4f3060ee0e54a917ea98cbbf27862c7",
+  "signature": "2bde1547e00b143f452b73bd6d97d55e14b9c2d71fb193d2e4f022eecd5a2ed2",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-10-17 12:14:37",
-    "responseDate": "Sat, 17 Oct 2026 04:14:37 GMT",
+    "serverNowBeijing": "2026-10-17 16:18:38",
+    "responseDate": "Sat, 17 Oct 2026 08:18:38 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -41,10 +41,10 @@
       "limit": 200
     },
     {
-      "name": "神奇的蛋",
-      "priceRaw": "36000",
-      "price": 36000,
-      "limit": 5
+      "name": "火系血脉秘药",
+      "priceRaw": "16w",
+      "price": 160000,
+      "limit": 3
     }
   ],
   "matches": [],

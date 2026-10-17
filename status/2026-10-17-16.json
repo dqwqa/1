@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-10-17T08:18:36.888Z",
+  "checkedAtBeijing": "2026-10-17 16:18:36",
+  "slot": {
+    "index": 3,
+    "startHour": 16,
+    "endHour": 20,
+    "label": "16:00-20:00",
+    "key": "2026-10-17-16",
+    "date": "2026-10-17"
+  },
+  "watchItems": [
+    "国王球",
+    "棱镜球",
+    "镜面相框",
+    "炫彩蛋",
+    "炫彩精灵蛋",
+    "首领血脉秘药",
+    "祝福项坠"
+  ],
+  "status": "ok",
+  "signature": "2bde1547e00b143f452b73bd6d97d55e14b9c2d71fb193d2e4f022eecd5a2ed2",
+  "primary": {
+    "source": "onebiji",
+    "transport": "http",
+    "serverNowBeijing": "2026-10-17 16:18:38",
+    "responseDate": "Sat, 17 Oct 2026 08:18:38 GMT",
+    "doubleReadConsistent": true
+  },
+  "sourcePolicy": {
+    "authoritativeSource": "onebiji",
+    "auxiliarySources": [],
+    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
+  },
+  "itemCount": 2,
+  "items": [
+    {
+      "name": "美妙球",
+      "priceRaw": "3000",
+      "price": 3000,
+      "limit": 200
+    },
+    {
+      "name": "火系血脉秘药",
+      "priceRaw": "16w",
+      "price": 160000,
+      "limit": 3
+    }
+  ],
+  "matches": [],
+  "notification": null
+}
