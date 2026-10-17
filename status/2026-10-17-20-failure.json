@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-17T12:08:07.125Z",
+  "checkedAtBeijing": "2026-10-17 20:08:07",
+  "slot": {
+    "index": 4,
+    "startHour": 20,
+    "endHour": 24,
+    "label": "20:00-24:00",
+    "key": "2026-10-17-20",
+    "date": "2026-10-17"
+  },
+  "watchItems": [
+    "国王球",
+    "棱镜球",
+    "镜面相框",
+    "炫彩蛋",
+    "炫彩精灵蛋",
+    "首领血脉秘药",
+    "祝福项坠"
+  ],
+  "status": "error",
+  "error": "Error: HTTP：好游快爆出现重复商品：黄石榴石、魔力果；Chromium：好游快爆出现重复商品：黄石榴石、魔力果\n    at readOnebijiVerified (file:///home/runner/work/1/1/watcher.mjs:347:9)\n    at async run (file:///home/runner/work/1/1/watcher.mjs:621:21)\n    at async file:///home/runner/work/1/1/watcher.mjs:672:3",
+  "notification": {
+    "created": true,
+    "number": 62,
+    "url": "https://github.com/dqwqa/1/issues/62"
+  }
+}
