@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-18T08:38:03.708Z",
-  "checkedAtBeijing": "2026-10-18 16:38:03",
+  "checkedAt": "2026-10-18T12:34:33.953Z",
+  "checkedAtBeijing": "2026-10-18 20:34:33",
   "slot": {
-    "index": 3,
-    "startHour": 16,
-    "endHour": 20,
-    "label": "16:00-20:00",
-    "key": "2026-10-18-16",
+    "index": 4,
+    "startHour": 20,
+    "endHour": 24,
+    "label": "20:00-24:00",
+    "key": "2026-10-18-20",
     "date": "2026-10-18"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "32984f24c5cb0580bf92a8923ceb24d81862808a0fccd4103f9a8fc109432cf7",
+  "signature": "b931b39b642184f56b33d212d173524ca79415e6b2777b7b0c9b6913a3554e97",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-10-18 16:38:04",
-    "responseDate": "Sun, 18 Oct 2026 08:38:04 GMT",
+    "serverNowBeijing": "2026-10-18 20:34:34",
+    "responseDate": "Sun, 18 Oct 2026 12:34:35 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -41,9 +41,9 @@
       "limit": 200
     },
     {
-      "name": "地系粉尘",
-      "priceRaw": "500",
-      "price": 500,
+      "name": "黄石榴石",
+      "priceRaw": "1000",
+      "price": 1000,
       "limit": 100
     }
   ],
