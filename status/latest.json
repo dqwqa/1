@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-10-18T15:28:36.612Z",
-  "checkedAtBeijing": "2026-10-18 23:28:36",
+  "checkedAt": "2026-10-19T04:30:23.216Z",
+  "checkedAtBeijing": "2026-10-19 12:30:23",
   "slot": {
-    "index": 4,
-    "startHour": 20,
-    "endHour": 24,
-    "label": "20:00-24:00",
-    "key": "2026-10-18-20",
-    "date": "2026-10-18"
+    "index": 2,
+    "startHour": 12,
+    "endHour": 16,
+    "label": "12:00-16:00",
+    "key": "2026-10-19-12",
+    "date": "2026-10-19"
   },
   "watchItems": [
     "国王球",
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "b931b39b642184f56b33d212d173524ca79415e6b2777b7b0c9b6913a3554e97",
+  "signature": "e90cbf3c1ede1a450e23347b055763600bb16ae649495b58a6e2bf44fa8004be",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-10-18 23:28:37",
-    "responseDate": "Sun, 18 Oct 2026 15:28:37 GMT",
+    "serverNowBeijing": "2026-10-19 12:30:24",
+    "responseDate": "Mon, 19 Oct 2026 04:30:24 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -32,18 +32,12 @@
     "auxiliarySources": [],
     "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
   },
-  "itemCount": 2,
+  "itemCount": 1,
   "items": [
     {
-      "name": "美妙球",
-      "priceRaw": "3000",
-      "price": 3000,
-      "limit": 200
-    },
-    {
-      "name": "黄石榴石",
-      "priceRaw": "1000",
-      "price": 1000,
+      "name": "翼系粉尘",
+      "priceRaw": "500",
+      "price": 500,
       "limit": 100
     }
   ],
