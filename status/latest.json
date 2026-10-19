@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-19T04:30:23.216Z",
-  "checkedAtBeijing": "2026-10-19 12:30:23",
+  "checkedAt": "2026-10-19T09:40:36.897Z",
+  "checkedAtBeijing": "2026-10-19 17:40:36",
   "slot": {
-    "index": 2,
-    "startHour": 12,
-    "endHour": 16,
-    "label": "12:00-16:00",
-    "key": "2026-10-19-12",
+    "index": 3,
+    "startHour": 16,
+    "endHour": 20,
+    "label": "16:00-20:00",
+    "key": "2026-10-19-16",
     "date": "2026-10-19"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "e90cbf3c1ede1a450e23347b055763600bb16ae649495b58a6e2bf44fa8004be",
+  "signature": "529ba4d7de5fff462d5b2352faf9ab8013c95b4e0eebafbe5a6adb6d1a942f16",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-10-19 12:30:24",
-    "responseDate": "Mon, 19 Oct 2026 04:30:24 GMT",
+    "serverNowBeijing": "2026-10-19 17:40:37",
+    "responseDate": "Mon, 19 Oct 2026 09:40:37 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -35,7 +35,7 @@
   "itemCount": 1,
   "items": [
     {
-      "name": "翼系粉尘",
+      "name": "武系粉尘",
       "priceRaw": "500",
       "price": 500,
       "limit": 100

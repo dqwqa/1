@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-19T09:40:36.897Z",
+  "checkedAtBeijing": "2026-10-19 17:40:36",
+  "slot": {
+    "index": 3,
+    "startHour": 16,
+    "endHour": 20,
+    "label": "16:00-20:00",
+    "key": "2026-10-19-16",
+    "date": "2026-10-19"
+  },
+  "watchItems": [
+    "国王球",
+    "棱镜球",
+    "镜面相框",
+    "炫彩蛋",
+    "炫彩精灵蛋",
+    "首领血脉秘药",
+    "祝福项坠"
+  ],
+  "status": "ok",
+  "signature": "529ba4d7de5fff462d5b2352faf9ab8013c95b4e0eebafbe5a6adb6d1a942f16",
+  "primary": {
+    "source": "onebiji",
+    "transport": "http",
+    "serverNowBeijing": "2026-10-19 17:40:37",
+    "responseDate": "Mon, 19 Oct 2026 09:40:37 GMT",
+    "doubleReadConsistent": true
+  },
+  "sourcePolicy": {
+    "authoritativeSource": "onebiji",
+    "auxiliarySources": [],
+    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
+  },
+  "itemCount": 1,
+  "items": [
+    {
+      "name": "武系粉尘",
+      "priceRaw": "500",
+      "price": 500,
+      "limit": 100
+    }
+  ],
+  "matches": [],
+  "notification": null
+}
