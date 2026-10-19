@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-19T09:40:36.897Z",
-  "checkedAtBeijing": "2026-10-19 17:40:36",
+  "checkedAt": "2026-10-19T15:31:19.127Z",
+  "checkedAtBeijing": "2026-10-19 23:31:19",
   "slot": {
-    "index": 3,
-    "startHour": 16,
-    "endHour": 20,
-    "label": "16:00-20:00",
-    "key": "2026-10-19-16",
+    "index": 4,
+    "startHour": 20,
+    "endHour": 24,
+    "label": "20:00-24:00",
+    "key": "2026-10-19-20",
     "date": "2026-10-19"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "529ba4d7de5fff462d5b2352faf9ab8013c95b4e0eebafbe5a6adb6d1a942f16",
+  "signature": "e5495a61f47a0a8e03cd8805a093a87c2676a6d627904e6d2bb3f804d33cf6f2",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-10-19 17:40:37",
-    "responseDate": "Mon, 19 Oct 2026 09:40:37 GMT",
+    "serverNowBeijing": "2026-10-19 23:31:20",
+    "responseDate": "Mon, 19 Oct 2026 15:31:20 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -32,8 +32,20 @@
     "auxiliarySources": [],
     "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
   },
-  "itemCount": 1,
+  "itemCount": 3,
   "items": [
+    {
+      "name": "黄石榴石",
+      "priceRaw": "1000",
+      "price": 1000,
+      "limit": 100
+    },
+    {
+      "name": "恶系血脉秘药",
+      "priceRaw": "16w",
+      "price": 160000,
+      "limit": 3
+    },
     {
       "name": "武系粉尘",
       "priceRaw": "500",
