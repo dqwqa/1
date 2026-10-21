@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-21T09:10:25.414Z",
-  "checkedAtBeijing": "2026-10-21 17:10:25",
+  "checkedAt": "2026-10-21T13:42:14.660Z",
+  "checkedAtBeijing": "2026-10-21 21:42:14",
   "slot": {
-    "index": 3,
-    "startHour": 16,
-    "endHour": 20,
-    "label": "16:00-20:00",
-    "key": "2026-10-21-16",
+    "index": 4,
+    "startHour": 20,
+    "endHour": 24,
+    "label": "20:00-24:00",
+    "key": "2026-10-21-20",
     "date": "2026-10-21"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "6ef935e304010dfc55f1b7dc6723693922ca19942e642b460bcc0926acd86c74",
+  "signature": "e66e5e59dcf8f73f221849ed05449793bed7b556cd65b7f66c1c3fca813af353",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-10-21 17:10:25",
-    "responseDate": "Wed, 21 Oct 2026 09:10:26 GMT",
+    "serverNowBeijing": "2026-10-21 21:42:15",
+    "responseDate": "Wed, 21 Oct 2026 13:42:15 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -35,9 +35,9 @@
   "itemCount": 1,
   "items": [
     {
-      "name": "水系粉尘",
-      "priceRaw": "500",
-      "price": 500,
+      "name": "蓝晶碧玺",
+      "priceRaw": "1000",
+      "price": 1000,
       "limit": 100
     }
   ],
