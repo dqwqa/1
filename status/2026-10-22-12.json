@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-22T04:32:10.481Z",
+  "checkedAtBeijing": "2026-10-22 12:32:10",
+  "slot": {
+    "index": 2,
+    "startHour": 12,
+    "endHour": 16,
+    "label": "12:00-16:00",
+    "key": "2026-10-22-12",
+    "date": "2026-10-22"
+  },
+  "watchItems": [
+    "国王球",
+    "棱镜球",
+    "镜面相框",
+    "炫彩蛋",
+    "炫彩精灵蛋",
+    "首领血脉秘药",
+    "祝福项坠"
+  ],
+  "status": "ok",
+  "signature": "192cd73f41804cbc9b8d6625ee363dc76a32cf8fc5fbf4ff1eaa095c05dde58e",
+  "primary": {
+    "source": "onebiji",
+    "transport": "http",
+    "serverNowBeijing": "2026-10-22 12:32:11",
+    "responseDate": "Thu, 22 Oct 2026 04:32:11 GMT",
+    "doubleReadConsistent": true
+  },
+  "sourcePolicy": {
+    "authoritativeSource": "onebiji",
+    "auxiliarySources": [],
+    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
+  },
+  "itemCount": 1,
+  "items": [
+    {
+      "name": "黑晶琉璃",
+      "priceRaw": "1000",
+      "price": 1000,
+      "limit": 100
+    }
+  ],
+  "matches": [],
+  "notification": null
+}
