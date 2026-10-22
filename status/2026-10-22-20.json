@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-22T13:43:13.236Z",
+  "checkedAtBeijing": "2026-10-22 21:43:13",
+  "slot": {
+    "index": 4,
+    "startHour": 20,
+    "endHour": 24,
+    "label": "20:00-24:00",
+    "key": "2026-10-22-20",
+    "date": "2026-10-22"
+  },
+  "watchItems": [
+    "国王球",
+    "棱镜球",
+    "镜面相框",
+    "炫彩蛋",
+    "炫彩精灵蛋",
+    "首领血脉秘药",
+    "祝福项坠"
+  ],
+  "status": "ok",
+  "signature": "65c66b95c1ad37e6253810c930ae77403070a2ad147b50a50e616a76818d4b1f",
+  "primary": {
+    "source": "onebiji",
+    "transport": "http",
+    "serverNowBeijing": "2026-10-22 21:43:13",
+    "responseDate": "Thu, 22 Oct 2026 13:43:14 GMT",
+    "doubleReadConsistent": true
+  },
+  "sourcePolicy": {
+    "authoritativeSource": "onebiji",
+    "auxiliarySources": [],
+    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
+  },
+  "itemCount": 1,
+  "items": [
+    {
+      "name": "黄石榴石",
+      "priceRaw": "1000",
+      "price": 1000,
+      "limit": 100
+    }
+  ],
+  "matches": [],
+  "notification": null
+}
