@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-23T04:37:18.527Z",
-  "checkedAtBeijing": "2026-10-23 12:37:18",
+  "checkedAt": "2026-10-23T09:09:20.268Z",
+  "checkedAtBeijing": "2026-10-23 17:09:20",
   "slot": {
-    "index": 2,
-    "startHour": 12,
-    "endHour": 16,
-    "label": "12:00-16:00",
-    "key": "2026-10-23-12",
+    "index": 3,
+    "startHour": 16,
+    "endHour": 20,
+    "label": "16:00-20:00",
+    "key": "2026-10-23-16",
     "date": "2026-10-23"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "8089bdda37110d4ea336c875ce63912d41359a960bd0cd44584b31ccd41b2390",
+  "signature": "1a4ce4e8abad23980e59bee53df8f8ff9e56959af71b6202929ac117f28924e0",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-10-23 12:37:19",
-    "responseDate": "Fri, 23 Oct 2026 04:37:19 GMT",
+    "serverNowBeijing": "2026-10-23 17:09:21",
+    "responseDate": "Fri, 23 Oct 2026 09:09:21 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -47,10 +47,10 @@
       "limit": 200
     },
     {
-      "name": "幽系血脉秘药",
-      "priceRaw": "16w",
-      "price": 160000,
-      "limit": 3
+      "name": "火系粉尘",
+      "priceRaw": "500",
+      "price": 500,
+      "limit": 100
     }
   ],
   "matches": [],
