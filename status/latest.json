@@ -1,7 +1,14 @@
 {
-  "checkedAt": "2026-10-22T16:44:05.611Z",
-  "checkedAtBeijing": "2026-10-23 00:44:05",
-  "slot": null,
+  "checkedAt": "2026-10-23T04:37:18.527Z",
+  "checkedAtBeijing": "2026-10-23 12:37:18",
+  "slot": {
+    "index": 2,
+    "startHour": 12,
+    "endHour": 16,
+    "label": "12:00-16:00",
+    "key": "2026-10-23-12",
+    "date": "2026-10-23"
+  },
   "watchItems": [
     "国王球",
     "棱镜球",
@@ -11,6 +18,41 @@
     "首领血脉秘药",
     "祝福项坠"
   ],
-  "status": "closed",
-  "message": "当前不在远行商人营业时间"
+  "status": "ok",
+  "signature": "8089bdda37110d4ea336c875ce63912d41359a960bd0cd44584b31ccd41b2390",
+  "primary": {
+    "source": "onebiji",
+    "transport": "http",
+    "serverNowBeijing": "2026-10-23 12:37:19",
+    "responseDate": "Fri, 23 Oct 2026 04:37:19 GMT",
+    "doubleReadConsistent": true
+  },
+  "sourcePolicy": {
+    "authoritativeSource": "onebiji",
+    "auxiliarySources": [],
+    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
+  },
+  "itemCount": 3,
+  "items": [
+    {
+      "name": "网兜球",
+      "priceRaw": "3000",
+      "price": 3000,
+      "limit": 100
+    },
+    {
+      "name": "暗星球",
+      "priceRaw": "3000",
+      "price": 3000,
+      "limit": 200
+    },
+    {
+      "name": "幽系血脉秘药",
+      "priceRaw": "16w",
+      "price": 160000,
+      "limit": 3
+    }
+  ],
+  "matches": [],
+  "notification": null
 }
