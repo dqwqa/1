@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-24T12:37:23.003Z",
-  "checkedAtBeijing": "2026-10-24 20:37:23",
+  "checkedAt": "2026-10-24T15:29:21.923Z",
+  "checkedAtBeijing": "2026-10-24 23:29:21",
   "slot": {
     "index": 4,
     "startHour": 20,
@@ -18,11 +18,63 @@
     "首领血脉秘药",
     "祝福项坠"
   ],
-  "status": "error",
-  "error": "Error: Invalid login: 535 Error: authentication failed\n    at SMTPConnection._formatError (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:809:19)\n    at SMTPConnection._actionAUTHComplete (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:1588:34)\n    at SMTPConnection.<anonymous> (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:556:26)\n    at SMTPConnection._processResponse (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:993:20)\n    at SMTPConnection._onData (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:774:14)\n    at SMTPConnection._onSocketData (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)\n    at TLSSocket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)",
+  "status": "ok",
+  "signature": "34f5da7c7aecbc6c23eeb1e9929c5d293fe88529f8f073080b46709d5f8499f0",
+  "primary": {
+    "source": "onebiji",
+    "transport": "http",
+    "serverNowBeijing": "2026-10-24 23:29:22",
+    "responseDate": "Sat, 24 Oct 2026 15:29:22 GMT",
+    "doubleReadConsistent": true
+  },
+  "sourcePolicy": {
+    "authoritativeSource": "onebiji",
+    "auxiliarySources": [],
+    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
+  },
+  "itemCount": 4,
+  "items": [
+    {
+      "name": "网兜球",
+      "priceRaw": "3000",
+      "price": 3000,
+      "limit": 100
+    },
+    {
+      "name": "暗星球",
+      "priceRaw": "3000",
+      "price": 3000,
+      "limit": 200
+    },
+    {
+      "name": "首领血脉秘药",
+      "priceRaw": "32w",
+      "price": 320000,
+      "limit": 1
+    },
+    {
+      "name": "魔力果",
+      "priceRaw": "6000",
+      "price": 6000,
+      "limit": 20
+    }
+  ],
+  "matches": [
+    {
+      "name": "首领血脉秘药",
+      "priceRaw": "32w",
+      "price": 320000,
+      "limit": 1
+    }
+  ],
   "notification": {
-    "created": true,
-    "number": 64,
-    "url": "https://github.com/dqwqa/1/issues/64"
+    "issue": {
+      "created": false,
+      "reason": "duplicate"
+    },
+    "mail": {
+      "sent": false,
+      "reason": "duplicate merchant slot suppressed"
+    }
   }
 }
