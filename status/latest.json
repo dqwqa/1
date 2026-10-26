@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-10-25T15:39:48.329Z",
-  "checkedAtBeijing": "2026-10-25 23:39:48",
+  "checkedAt": "2026-10-26T04:35:07.471Z",
+  "checkedAtBeijing": "2026-10-26 12:35:07",
   "slot": {
-    "index": 4,
-    "startHour": 20,
-    "endHour": 24,
-    "label": "20:00-24:00",
-    "key": "2026-10-25-20",
-    "date": "2026-10-25"
+    "index": 2,
+    "startHour": 12,
+    "endHour": 16,
+    "label": "12:00-16:00",
+    "key": "2026-10-26-12",
+    "date": "2026-10-26"
   },
   "watchItems": [
     "国王球",
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "df8c54e0a54ecd41d05805633c88aade6b30cb98e4bd6b0325aa017d8deae450",
+  "signature": "ec3d331f17cc1cd62fd7deb0878ccdc713809af15c31cd25b53a74f599e6585a",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-10-25 23:39:49",
-    "responseDate": "Sun, 25 Oct 2026 15:39:49 GMT",
+    "serverNowBeijing": "2026-10-26 12:35:08",
+    "responseDate": "Mon, 26 Oct 2026 04:35:08 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -32,32 +32,8 @@
     "auxiliarySources": [],
     "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
   },
-  "itemCount": 5,
+  "itemCount": 1,
   "items": [
-    {
-      "name": "网兜球",
-      "priceRaw": "3000",
-      "price": 3000,
-      "limit": 100
-    },
-    {
-      "name": "暗星球",
-      "priceRaw": "3000",
-      "price": 3000,
-      "limit": 200
-    },
-    {
-      "name": "黄石榴石",
-      "priceRaw": "1000",
-      "price": 1000,
-      "limit": 100
-    },
-    {
-      "name": "翼系血脉秘药",
-      "priceRaw": "16w",
-      "price": 160000,
-      "limit": 3
-    },
     {
       "name": "魔力果",
       "priceRaw": "6000",
