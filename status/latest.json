@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-29T05:37:21.959Z",
-  "checkedAtBeijing": "2026-10-29 13:37:21",
+  "checkedAt": "2026-10-29T10:44:24.111Z",
+  "checkedAtBeijing": "2026-10-29 18:44:24",
   "slot": {
-    "index": 2,
-    "startHour": 12,
-    "endHour": 16,
-    "label": "12:00-16:00",
-    "key": "2026-10-29-12",
+    "index": 3,
+    "startHour": 16,
+    "endHour": 20,
+    "label": "16:00-20:00",
+    "key": "2026-10-29-16",
     "date": "2026-10-29"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "3fd2440674dca56439509d8c8b54781787071e87b461566e02e562477ebf86e7",
+  "signature": "a3e53ee2eda4d55dbdafa836730f6fc452289a27f9eb4de272cae55194251c9c",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-10-29 13:37:22",
-    "responseDate": "Thu, 29 Oct 2026 05:37:22 GMT",
+    "serverNowBeijing": "2026-10-29 18:44:24",
+    "responseDate": "Thu, 29 Oct 2026 10:44:24 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -32,13 +32,25 @@
     "auxiliarySources": [],
     "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
   },
-  "itemCount": 1,
+  "itemCount": 3,
   "items": [
     {
-      "name": "神奇的蛋",
-      "priceRaw": "36000",
-      "price": 36000,
-      "limit": 5
+      "name": "黄石榴石",
+      "priceRaw": "1000",
+      "price": 1000,
+      "limit": 100
+    },
+    {
+      "name": "蓝晶碧玺",
+      "priceRaw": "1000",
+      "price": 1000,
+      "limit": 100
+    },
+    {
+      "name": "毒系粉尘",
+      "priceRaw": "500",
+      "price": 500,
+      "limit": 100
     }
   ],
   "matches": [],
