@@ -1,7 +1,14 @@
 {
-  "checkedAt": "2026-10-28T17:57:45.181Z",
-  "checkedAtBeijing": "2026-10-29 01:57:45",
-  "slot": null,
+  "checkedAt": "2026-10-29T05:37:21.959Z",
+  "checkedAtBeijing": "2026-10-29 13:37:21",
+  "slot": {
+    "index": 2,
+    "startHour": 12,
+    "endHour": 16,
+    "label": "12:00-16:00",
+    "key": "2026-10-29-12",
+    "date": "2026-10-29"
+  },
   "watchItems": [
     "国王球",
     "棱镜球",
@@ -11,6 +18,29 @@
     "首领血脉秘药",
     "祝福项坠"
   ],
-  "status": "closed",
-  "message": "当前不在远行商人营业时间"
+  "status": "ok",
+  "signature": "3fd2440674dca56439509d8c8b54781787071e87b461566e02e562477ebf86e7",
+  "primary": {
+    "source": "onebiji",
+    "transport": "http",
+    "serverNowBeijing": "2026-10-29 13:37:22",
+    "responseDate": "Thu, 29 Oct 2026 05:37:22 GMT",
+    "doubleReadConsistent": true
+  },
+  "sourcePolicy": {
+    "authoritativeSource": "onebiji",
+    "auxiliarySources": [],
+    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
+  },
+  "itemCount": 1,
+  "items": [
+    {
+      "name": "神奇的蛋",
+      "priceRaw": "36000",
+      "price": 36000,
+      "limit": 5
+    }
+  ],
+  "matches": [],
+  "notification": null
 }
