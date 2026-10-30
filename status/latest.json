@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-30T10:44:23.872Z",
-  "checkedAtBeijing": "2026-10-30 18:44:23",
+  "checkedAt": "2026-10-30T14:59:52.367Z",
+  "checkedAtBeijing": "2026-10-30 22:59:52",
   "slot": {
-    "index": 3,
-    "startHour": 16,
-    "endHour": 20,
-    "label": "16:00-20:00",
-    "key": "2026-10-30-16",
+    "index": 4,
+    "startHour": 20,
+    "endHour": 24,
+    "label": "20:00-24:00",
+    "key": "2026-10-30-20",
     "date": "2026-10-30"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "a41f21af801dede332a2b61f68c30093e1c0bae224c0b178552e571ef519c4e4",
+  "signature": "57bc63453b433c49ca1e8b975c6836f9d6869196455bbcc2afb89e14ac724c45",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-10-30 18:44:24",
-    "responseDate": "Fri, 30 Oct 2026 10:44:24 GMT",
+    "serverNowBeijing": "2026-10-30 22:59:55",
+    "responseDate": "Fri, 30 Oct 2026 14:59:55 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -41,7 +41,7 @@
       "limit": 100
     },
     {
-      "name": "紫莲刚玉",
+      "name": "蓝晶碧玺",
       "priceRaw": "1000",
       "price": 1000,
       "limit": 100
@@ -53,10 +53,10 @@
       "limit": 1
     },
     {
-      "name": "翼系粉尘",
-      "priceRaw": "500",
-      "price": 500,
-      "limit": 100
+      "name": "魔力果",
+      "priceRaw": "6000",
+      "price": 6000,
+      "limit": 20
     }
   ],
   "matches": [],
