@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-31T10:13:47.010Z",
-  "checkedAtBeijing": "2026-10-31 18:13:47",
+  "checkedAt": "2026-10-31T14:28:51.993Z",
+  "checkedAtBeijing": "2026-10-31 22:28:51",
   "slot": {
-    "index": 3,
-    "startHour": 16,
-    "endHour": 20,
-    "label": "16:00-20:00",
-    "key": "2026-10-31-16",
+    "index": 4,
+    "startHour": 20,
+    "endHour": 24,
+    "label": "20:00-24:00",
+    "key": "2026-10-31-20",
     "date": "2026-10-31"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "5a6211e9d273be1b78569bb28de1cb8c3d246cadea94930c96592d99aaf1a044",
+  "signature": "d1e5595e6ba144a9e997dd2a6c6e38880dbdb78b71f55fc113ebeaa66d9ae415",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-10-31 18:13:47",
-    "responseDate": "Sat, 31 Oct 2026 10:13:47 GMT",
+    "serverNowBeijing": "2026-10-31 22:28:52",
+    "responseDate": "Sat, 31 Oct 2026 14:28:52 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -41,13 +41,19 @@
       "limit": 100
     },
     {
+      "name": "黑晶琉璃",
+      "priceRaw": "1000",
+      "price": 1000,
+      "limit": 100
+    },
+    {
       "name": "黄石榴石",
       "priceRaw": "1000",
       "price": 1000,
       "limit": 100
     },
     {
-      "name": "蓝晶碧玺",
+      "name": "紫莲刚玉",
       "priceRaw": "1000",
       "price": 1000,
       "limit": 100
@@ -57,12 +63,6 @@
       "priceRaw": "5",
       "price": 5,
       "limit": 1
-    },
-    {
-      "name": "魔力果",
-      "priceRaw": "6000",
-      "price": 6000,
-      "limit": 20
     }
   ],
   "matches": [],
