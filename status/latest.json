@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-01T11:04:31.949Z",
-  "checkedAtBeijing": "2026-11-01 19:04:31",
+  "checkedAt": "2026-11-01T14:58:34.918Z",
+  "checkedAtBeijing": "2026-11-01 22:58:34",
   "slot": {
-    "index": 3,
-    "startHour": 16,
-    "endHour": 20,
-    "label": "16:00-20:00",
-    "key": "2026-11-01-16",
+    "index": 4,
+    "startHour": 20,
+    "endHour": 24,
+    "label": "20:00-24:00",
+    "key": "2026-11-01-20",
     "date": "2026-11-01"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "f523b06ff4a461d5716732bf7cd3275d6cd58388c86e378f7bb2ba5b2c4e5aa6",
+  "signature": "214eb48768b3e094de36e3a25e6628412af1b8753e4881ed4af00f39fee5fe30",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-11-01 19:04:32",
-    "responseDate": "Sun, 01 Nov 2026 11:04:32 GMT",
+    "serverNowBeijing": "2026-11-01 22:58:36",
+    "responseDate": "Sun, 01 Nov 2026 14:58:36 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -32,7 +32,7 @@
     "auxiliarySources": [],
     "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
   },
-  "itemCount": 3,
+  "itemCount": 5,
   "items": [
     {
       "name": "网兜球",
@@ -41,16 +41,28 @@
       "limit": 100
     },
     {
-      "name": "蓝晶碧玺",
-      "priceRaw": "1000",
-      "price": 1000,
-      "limit": 100
-    },
-    {
       "name": "捣蛋糖果*30",
       "priceRaw": "5",
       "price": 5,
       "limit": 1
+    },
+    {
+      "name": "幻系血脉秘药",
+      "priceRaw": "16w",
+      "price": 160000,
+      "limit": 3
+    },
+    {
+      "name": "魔力果",
+      "priceRaw": "6000",
+      "price": 6000,
+      "limit": 20
+    },
+    {
+      "name": "幽系粉尘",
+      "priceRaw": "500",
+      "price": 500,
+      "limit": 100
     }
   ],
   "matches": [],
