@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-01T05:51:42.312Z",
-  "checkedAtBeijing": "2026-11-01 13:51:42",
+  "checkedAt": "2026-11-01T11:04:31.949Z",
+  "checkedAtBeijing": "2026-11-01 19:04:31",
   "slot": {
-    "index": 2,
-    "startHour": 12,
-    "endHour": 16,
-    "label": "12:00-16:00",
-    "key": "2026-11-01-12",
+    "index": 3,
+    "startHour": 16,
+    "endHour": 20,
+    "label": "16:00-20:00",
+    "key": "2026-11-01-16",
     "date": "2026-11-01"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "4e7980c623425a097118af35f0bc3fe9f5713b859f45741939f969c0ff84a1ec",
+  "signature": "f523b06ff4a461d5716732bf7cd3275d6cd58388c86e378f7bb2ba5b2c4e5aa6",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-11-01 13:51:43",
-    "responseDate": "Sun, 01 Nov 2026 05:51:43 GMT",
+    "serverNowBeijing": "2026-11-01 19:04:32",
+    "responseDate": "Sun, 01 Nov 2026 11:04:32 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -32,7 +32,7 @@
     "auxiliarySources": [],
     "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
   },
-  "itemCount": 5,
+  "itemCount": 3,
   "items": [
     {
       "name": "网兜球",
@@ -41,7 +41,7 @@
       "limit": 100
     },
     {
-      "name": "紫莲刚玉",
+      "name": "蓝晶碧玺",
       "priceRaw": "1000",
       "price": 1000,
       "limit": 100
@@ -51,18 +51,6 @@
       "priceRaw": "5",
       "price": 5,
       "limit": 1
-    },
-    {
-      "name": "魔力果",
-      "priceRaw": "6000",
-      "price": 6000,
-      "limit": 20
-    },
-    {
-      "name": "神奇的蛋",
-      "priceRaw": "36000",
-      "price": 36000,
-      "limit": 5
     }
   ],
   "matches": [],
