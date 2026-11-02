@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-02T05:51:56.403Z",
-  "checkedAtBeijing": "2026-11-02 13:51:56",
+  "checkedAt": "2026-11-02T12:03:12.815Z",
+  "checkedAtBeijing": "2026-11-02 20:03:12",
   "slot": {
-    "index": 2,
-    "startHour": 12,
-    "endHour": 16,
-    "label": "12:00-16:00",
-    "key": "2026-11-02-12",
+    "index": 4,
+    "startHour": 20,
+    "endHour": 24,
+    "label": "20:00-24:00",
+    "key": "2026-11-02-20",
     "date": "2026-11-02"
   },
   "watchItems": [
@@ -18,35 +18,11 @@
     "首领血脉秘药",
     "祝福项坠"
   ],
-  "status": "ok",
-  "signature": "5210b85fdb93032a2db69381cfad2dddf8aa9cb7177a790e950336dffdf7ec7e",
-  "primary": {
-    "source": "onebiji",
-    "transport": "http",
-    "serverNowBeijing": "2026-11-02 13:51:57",
-    "responseDate": "Mon, 02 Nov 2026 05:51:57 GMT",
-    "doubleReadConsistent": true
-  },
-  "sourcePolicy": {
-    "authoritativeSource": "onebiji",
-    "auxiliarySources": [],
-    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
-  },
-  "itemCount": 2,
-  "items": [
-    {
-      "name": "捣蛋糖果*30",
-      "priceRaw": "5",
-      "price": 5,
-      "limit": 1
-    },
-    {
-      "name": "光系粉尘",
-      "priceRaw": "500",
-      "price": 500,
-      "limit": 100
-    }
-  ],
-  "matches": [],
-  "notification": null
+  "status": "error",
+  "error": "Error: Invalid login: 535 Error: authentication failed\n    at SMTPConnection._formatError (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:809:19)\n    at SMTPConnection._actionAUTHComplete (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:1588:34)\n    at SMTPConnection.<anonymous> (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:556:26)\n    at SMTPConnection._processResponse (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:993:20)\n    at SMTPConnection._onData (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:774:14)\n    at SMTPConnection._onSocketData (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)\n    at TLSSocket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)",
+  "notification": {
+    "created": true,
+    "number": 74,
+    "url": "https://github.com/dqwqa/1/issues/74"
+  }
 }
