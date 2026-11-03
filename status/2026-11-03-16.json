@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-11-03T11:40:39.492Z",
+  "checkedAtBeijing": "2026-11-03 19:40:39",
+  "slot": {
+    "index": 3,
+    "startHour": 16,
+    "endHour": 20,
+    "label": "16:00-20:00",
+    "key": "2026-11-03-16",
+    "date": "2026-11-03"
+  },
+  "watchItems": [
+    "国王球",
+    "棱镜球",
+    "镜面相框",
+    "炫彩蛋",
+    "炫彩精灵蛋",
+    "首领血脉秘药",
+    "祝福项坠"
+  ],
+  "status": "ok",
+  "signature": "dd552dd1a40069ae8d499db71bb0b4c8ca758c0b5a9c8811c0944660d3609bdc",
+  "primary": {
+    "source": "onebiji",
+    "transport": "http",
+    "serverNowBeijing": "2026-11-03 19:40:40",
+    "responseDate": "Tue, 03 Nov 2026 11:40:40 GMT",
+    "doubleReadConsistent": true
+  },
+  "sourcePolicy": {
+    "authoritativeSource": "onebiji",
+    "auxiliarySources": [],
+    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
+  },
+  "itemCount": 4,
+  "items": [
+    {
+      "name": "黑晶琉璃",
+      "priceRaw": "1000",
+      "price": 1000,
+      "limit": 100
+    },
+    {
+      "name": "蓝晶碧玺",
+      "priceRaw": "1000",
+      "price": 1000,
+      "limit": 100
+    },
+    {
+      "name": "捣蛋糖果*30",
+      "priceRaw": "5",
+      "price": 5,
+      "limit": 1
+    },
+    {
+      "name": "火系粉尘",
+      "priceRaw": "500",
+      "price": 500,
+      "limit": 100
+    }
+  ],
+  "matches": [],
+  "notification": null
+}
