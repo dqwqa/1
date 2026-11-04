@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-11-04T06:03:57.235Z",
+  "checkedAtBeijing": "2026-11-04 14:03:57",
+  "slot": {
+    "index": 2,
+    "startHour": 12,
+    "endHour": 16,
+    "label": "12:00-16:00",
+    "key": "2026-11-04-12",
+    "date": "2026-11-04"
+  },
+  "watchItems": [
+    "国王球",
+    "棱镜球",
+    "镜面相框",
+    "炫彩蛋",
+    "炫彩精灵蛋",
+    "首领血脉秘药",
+    "祝福项坠"
+  ],
+  "status": "ok",
+  "signature": "192c77dbf54083e940019aacd959d57feb7225885694d96663ef710e52e5e777",
+  "primary": {
+    "source": "onebiji",
+    "transport": "http",
+    "serverNowBeijing": "2026-11-04 14:03:57",
+    "responseDate": "Wed, 04 Nov 2026 06:03:58 GMT",
+    "doubleReadConsistent": true
+  },
+  "sourcePolicy": {
+    "authoritativeSource": "onebiji",
+    "auxiliarySources": [],
+    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
+  },
+  "itemCount": 3,
+  "items": [
+    {
+      "name": "捣蛋糖果*30",
+      "priceRaw": "5",
+      "price": 5,
+      "limit": 1
+    },
+    {
+      "name": "魔力果",
+      "priceRaw": "6000",
+      "price": 6000,
+      "limit": 20
+    },
+    {
+      "name": "武系粉尘",
+      "priceRaw": "500",
+      "price": 500,
+      "limit": 100
+    }
+  ],
+  "matches": [],
+  "notification": null
+}
