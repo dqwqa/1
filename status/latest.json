@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-05T06:31:58.723Z",
-  "checkedAtBeijing": "2026-11-05 14:31:58",
+  "checkedAt": "2026-11-05T11:56:18.278Z",
+  "checkedAtBeijing": "2026-11-05 19:56:18",
   "slot": {
-    "index": 2,
-    "startHour": 12,
-    "endHour": 16,
-    "label": "12:00-16:00",
-    "key": "2026-11-05-12",
+    "index": 3,
+    "startHour": 16,
+    "endHour": 20,
+    "label": "16:00-20:00",
+    "key": "2026-11-05-16",
     "date": "2026-11-05"
   },
   "watchItems": [
@@ -23,8 +23,8 @@
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-11-05 14:31:59",
-    "responseDate": "Thu, 05 Nov 2026 06:31:59 GMT",
+    "serverNowBeijing": "2026-11-05 19:56:19",
+    "responseDate": "Thu, 05 Nov 2026 11:56:19 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
