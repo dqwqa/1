@@ -1,14 +1,7 @@
 {
-  "checkedAt": "2026-11-05T11:56:18.278Z",
-  "checkedAtBeijing": "2026-11-05 19:56:18",
-  "slot": {
-    "index": 3,
-    "startHour": 16,
-    "endHour": 20,
-    "label": "16:00-20:00",
-    "key": "2026-11-05-16",
-    "date": "2026-11-05"
-  },
+  "checkedAt": "2026-11-05T16:24:15.965Z",
+  "checkedAtBeijing": "2026-11-06 00:24:15",
+  "slot": null,
   "watchItems": [
     "国王球",
     "棱镜球",
@@ -18,35 +11,6 @@
     "首领血脉秘药",
     "祝福项坠"
   ],
-  "status": "ok",
-  "signature": "fec60369474e081aa3c4b0c8da44d21052668248d98d44ce1a07074a0fb15983",
-  "primary": {
-    "source": "onebiji",
-    "transport": "http",
-    "serverNowBeijing": "2026-11-05 19:56:19",
-    "responseDate": "Thu, 05 Nov 2026 11:56:19 GMT",
-    "doubleReadConsistent": true
-  },
-  "sourcePolicy": {
-    "authoritativeSource": "onebiji",
-    "auxiliarySources": [],
-    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
-  },
-  "itemCount": 2,
-  "items": [
-    {
-      "name": "黑晶琉璃",
-      "priceRaw": "1000",
-      "price": 1000,
-      "limit": 100
-    },
-    {
-      "name": "捣蛋糖果*30",
-      "priceRaw": "5",
-      "price": 5,
-      "limit": 1
-    }
-  ],
-  "matches": [],
-  "notification": null
+  "status": "closed",
+  "message": "当前不在远行商人营业时间"
 }
