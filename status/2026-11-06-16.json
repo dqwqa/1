@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-11-06T11:52:34.040Z",
+  "checkedAtBeijing": "2026-11-06 19:52:34",
+  "slot": {
+    "index": 3,
+    "startHour": 16,
+    "endHour": 20,
+    "label": "16:00-20:00",
+    "key": "2026-11-06-16",
+    "date": "2026-11-06"
+  },
+  "watchItems": [
+    "国王球",
+    "棱镜球",
+    "镜面相框",
+    "炫彩蛋",
+    "炫彩精灵蛋",
+    "首领血脉秘药",
+    "祝福项坠"
+  ],
+  "status": "ok",
+  "signature": "5c04d23c7fd5861215f2d1373531968a8c337d78d3a5586ed40adec52a7d3386",
+  "primary": {
+    "source": "onebiji",
+    "transport": "http",
+    "serverNowBeijing": "2026-11-06 19:52:35",
+    "responseDate": "Fri, 06 Nov 2026 11:52:35 GMT",
+    "doubleReadConsistent": true
+  },
+  "sourcePolicy": {
+    "authoritativeSource": "onebiji",
+    "auxiliarySources": [],
+    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
+  },
+  "itemCount": 3,
+  "items": [
+    {
+      "name": "网兜球",
+      "priceRaw": "3000",
+      "price": 3000,
+      "limit": 100
+    },
+    {
+      "name": "奇异血脉秘药",
+      "priceRaw": "16w",
+      "price": 160000,
+      "limit": 3
+    },
+    {
+      "name": "幻系血脉秘药",
+      "priceRaw": "16w",
+      "price": 160000,
+      "limit": 3
+    }
+  ],
+  "matches": [],
+  "notification": null
+}

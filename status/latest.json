@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-06T06:28:03.591Z",
-  "checkedAtBeijing": "2026-11-06 14:28:03",
+  "checkedAt": "2026-11-06T11:52:34.040Z",
+  "checkedAtBeijing": "2026-11-06 19:52:34",
   "slot": {
-    "index": 2,
-    "startHour": 12,
-    "endHour": 16,
-    "label": "12:00-16:00",
-    "key": "2026-11-06-12",
+    "index": 3,
+    "startHour": 16,
+    "endHour": 20,
+    "label": "16:00-20:00",
+    "key": "2026-11-06-16",
     "date": "2026-11-06"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "878e808b219fbb303d9818e0f16aa063cdb2d282c91475e3716f2034949aee0a",
+  "signature": "5c04d23c7fd5861215f2d1373531968a8c337d78d3a5586ed40adec52a7d3386",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-11-06 14:28:04",
-    "responseDate": "Fri, 06 Nov 2026 06:28:04 GMT",
+    "serverNowBeijing": "2026-11-06 19:52:35",
+    "responseDate": "Fri, 06 Nov 2026 11:52:35 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -32,7 +32,7 @@
     "auxiliarySources": [],
     "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
   },
-  "itemCount": 4,
+  "itemCount": 3,
   "items": [
     {
       "name": "网兜球",
@@ -41,22 +41,16 @@
       "limit": 100
     },
     {
-      "name": "紫莲刚玉",
-      "priceRaw": "1000",
-      "price": 1000,
-      "limit": 100
+      "name": "奇异血脉秘药",
+      "priceRaw": "16w",
+      "price": 160000,
+      "limit": 3
     },
     {
-      "name": "魔力果",
-      "priceRaw": "6000",
-      "price": 6000,
-      "limit": 20
-    },
-    {
-      "name": "电系粉尘",
-      "priceRaw": "500",
-      "price": 500,
-      "limit": 100
+      "name": "幻系血脉秘药",
+      "priceRaw": "16w",
+      "price": 160000,
+      "limit": 3
     }
   ],
   "matches": [],
