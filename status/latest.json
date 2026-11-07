@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-07T10:54:40.551Z",
-  "checkedAtBeijing": "2026-11-07 18:54:40",
+  "checkedAt": "2026-11-07T14:51:11.716Z",
+  "checkedAtBeijing": "2026-11-07 22:51:11",
   "slot": {
-    "index": 3,
-    "startHour": 16,
-    "endHour": 20,
-    "label": "16:00-20:00",
-    "key": "2026-11-07-16",
+    "index": 4,
+    "startHour": 20,
+    "endHour": 24,
+    "label": "20:00-24:00",
+    "key": "2026-11-07-20",
     "date": "2026-11-07"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "33855c245d425d1cb82d2d120cc5bd5cd2ab8490fabd9a83e11fb46cc83f25fa",
+  "signature": "cae93310216142d10815474841fb5fb9ccafeb4b610eb2bd606310cb35dd4929",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-11-07 18:54:41",
-    "responseDate": "Sat, 07 Nov 2026 10:54:41 GMT",
+    "serverNowBeijing": "2026-11-07 22:51:12",
+    "responseDate": "Sat, 07 Nov 2026 14:51:12 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -47,16 +47,16 @@
       "limit": 100
     },
     {
-      "name": "魔力果",
-      "priceRaw": "6000",
-      "price": 6000,
-      "limit": 20
+      "name": "紫莲刚玉",
+      "priceRaw": "1000",
+      "price": 1000,
+      "limit": 100
     },
     {
-      "name": "毒系粉尘",
-      "priceRaw": "500",
-      "price": 500,
-      "limit": 100
+      "name": "神奇的蛋",
+      "priceRaw": "36000",
+      "price": 36000,
+      "limit": 5
     }
   ],
   "matches": [],
