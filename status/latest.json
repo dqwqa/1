@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-08T05:51:39.820Z",
-  "checkedAtBeijing": "2026-11-08 13:51:39",
+  "checkedAt": "2026-11-08T11:05:28.883Z",
+  "checkedAtBeijing": "2026-11-08 19:05:28",
   "slot": {
-    "index": 2,
-    "startHour": 12,
-    "endHour": 16,
-    "label": "12:00-16:00",
-    "key": "2026-11-08-12",
+    "index": 3,
+    "startHour": 16,
+    "endHour": 20,
+    "label": "16:00-20:00",
+    "key": "2026-11-08-16",
     "date": "2026-11-08"
   },
   "watchItems": [
@@ -18,11 +18,41 @@
     "首领血脉秘药",
     "祝福项坠"
   ],
-  "status": "error",
-  "error": "Error: Invalid login: 535 Error: authentication failed\n    at SMTPConnection._formatError (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:809:19)\n    at SMTPConnection._actionAUTHComplete (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:1588:34)\n    at SMTPConnection.<anonymous> (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:556:26)\n    at SMTPConnection._processResponse (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:993:20)\n    at SMTPConnection._onData (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:774:14)\n    at SMTPConnection._onSocketData (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)\n    at TLSSocket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)",
-  "notification": {
-    "created": true,
-    "number": 76,
-    "url": "https://github.com/dqwqa/1/issues/76"
-  }
+  "status": "ok",
+  "signature": "048ba27ed5e05de04df6b333101650257d9b1910ad6cf467de45c35f41ca2307",
+  "primary": {
+    "source": "onebiji",
+    "transport": "http",
+    "serverNowBeijing": "2026-11-08 19:05:30",
+    "responseDate": "Sun, 08 Nov 2026 11:05:30 GMT",
+    "doubleReadConsistent": true
+  },
+  "sourcePolicy": {
+    "authoritativeSource": "onebiji",
+    "auxiliarySources": [],
+    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
+  },
+  "itemCount": 3,
+  "items": [
+    {
+      "name": "网兜球",
+      "priceRaw": "3000",
+      "price": 3000,
+      "limit": 100
+    },
+    {
+      "name": "蓝晶碧玺",
+      "priceRaw": "1000",
+      "price": 1000,
+      "limit": 100
+    },
+    {
+      "name": "神奇的蛋",
+      "priceRaw": "36000",
+      "price": 36000,
+      "limit": 5
+    }
+  ],
+  "matches": [],
+  "notification": null
 }
