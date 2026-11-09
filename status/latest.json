@@ -1,14 +1,7 @@
 {
-  "checkedAt": "2026-11-09T12:35:30.828Z",
-  "checkedAtBeijing": "2026-11-09 20:35:30",
-  "slot": {
-    "index": 4,
-    "startHour": 20,
-    "endHour": 24,
-    "label": "20:00-24:00",
-    "key": "2026-11-09-20",
-    "date": "2026-11-09"
-  },
+  "checkedAt": "2026-11-09T18:41:05.831Z",
+  "checkedAtBeijing": "2026-11-10 02:41:05",
+  "slot": null,
   "watchItems": [
     "国王球",
     "棱镜球",
@@ -18,41 +11,6 @@
     "首领血脉秘药",
     "祝福项坠"
   ],
-  "status": "ok",
-  "signature": "94041bda6e3b12d92b5918081cd047fe50faa2e3158f58e213c5b1128c0bafd5",
-  "primary": {
-    "source": "onebiji",
-    "transport": "http",
-    "serverNowBeijing": "2026-11-09 20:35:31",
-    "responseDate": "Mon, 09 Nov 2026 12:35:31 GMT",
-    "doubleReadConsistent": true
-  },
-  "sourcePolicy": {
-    "authoritativeSource": "onebiji",
-    "auxiliarySources": [],
-    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
-  },
-  "itemCount": 3,
-  "items": [
-    {
-      "name": "紫莲刚玉",
-      "priceRaw": "1000",
-      "price": 1000,
-      "limit": 100
-    },
-    {
-      "name": "神奇的蛋",
-      "priceRaw": "36000",
-      "price": 36000,
-      "limit": 5
-    },
-    {
-      "name": "火系粉尘",
-      "priceRaw": "500",
-      "price": 500,
-      "limit": 100
-    }
-  ],
-  "matches": [],
-  "notification": null
+  "status": "closed",
+  "message": "当前不在远行商人营业时间"
 }
