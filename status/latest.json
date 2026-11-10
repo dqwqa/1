@@ -1,14 +1,7 @@
 {
-  "checkedAt": "2026-11-10T12:14:12.015Z",
-  "checkedAtBeijing": "2026-11-10 20:14:12",
-  "slot": {
-    "index": 4,
-    "startHour": 20,
-    "endHour": 24,
-    "label": "20:00-24:00",
-    "key": "2026-11-10-20",
-    "date": "2026-11-10"
-  },
+  "checkedAt": "2026-11-10T16:22:13.049Z",
+  "checkedAtBeijing": "2026-11-11 00:22:13",
+  "slot": null,
   "watchItems": [
     "国王球",
     "棱镜球",
@@ -18,29 +11,6 @@
     "首领血脉秘药",
     "祝福项坠"
   ],
-  "status": "ok",
-  "signature": "cb3d0823f1a0fcce4ff9ebfd47dc352fb0821754473f825595a48a3d8f08b747",
-  "primary": {
-    "source": "onebiji",
-    "transport": "http",
-    "serverNowBeijing": "2026-11-10 20:14:12",
-    "responseDate": "Tue, 10 Nov 2026 12:14:13 GMT",
-    "doubleReadConsistent": true
-  },
-  "sourcePolicy": {
-    "authoritativeSource": "onebiji",
-    "auxiliarySources": [],
-    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
-  },
-  "itemCount": 1,
-  "items": [
-    {
-      "name": "幽系粉尘",
-      "priceRaw": "500",
-      "price": 500,
-      "limit": 100
-    }
-  ],
-  "matches": [],
-  "notification": null
+  "status": "closed",
+  "message": "当前不在远行商人营业时间"
 }
