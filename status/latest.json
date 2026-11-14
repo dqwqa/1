@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-14T11:15:05.955Z",
-  "checkedAtBeijing": "2026-11-14 19:15:05",
+  "checkedAt": "2026-11-14T14:58:23.209Z",
+  "checkedAtBeijing": "2026-11-14 22:58:23",
   "slot": {
-    "index": 3,
-    "startHour": 16,
-    "endHour": 20,
-    "label": "16:00-20:00",
-    "key": "2026-11-14-16",
+    "index": 4,
+    "startHour": 20,
+    "endHour": 24,
+    "label": "20:00-24:00",
+    "key": "2026-11-14-20",
     "date": "2026-11-14"
   },
   "watchItems": [
@@ -18,11 +18,41 @@
     "首领血脉秘药",
     "祝福项坠"
   ],
-  "status": "error",
-  "error": "Error: Invalid login: 535 Error: authentication failed\n    at SMTPConnection._formatError (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:809:19)\n    at SMTPConnection._actionAUTHComplete (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:1588:34)\n    at SMTPConnection.<anonymous> (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:556:26)\n    at SMTPConnection._processResponse (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:993:20)\n    at SMTPConnection._onData (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:774:14)\n    at SMTPConnection._onSocketData (/home/runner/work/1/1/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)\n    at TLSSocket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)",
-  "notification": {
-    "created": true,
-    "number": 80,
-    "url": "https://github.com/dqwqa/1/issues/80"
-  }
+  "status": "ok",
+  "signature": "c8b1b2c471806800ab0cbbfa01c59d6a915c002f709137b56396cbf35141046d",
+  "primary": {
+    "source": "onebiji",
+    "transport": "http",
+    "serverNowBeijing": "2026-11-14 22:58:23",
+    "responseDate": "Sat, 14 Nov 2026 14:58:23 GMT",
+    "doubleReadConsistent": true
+  },
+  "sourcePolicy": {
+    "authoritativeSource": "onebiji",
+    "auxiliarySources": [],
+    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
+  },
+  "itemCount": 3,
+  "items": [
+    {
+      "name": "变幻球",
+      "priceRaw": "3000",
+      "price": 3000,
+      "limit": 200
+    },
+    {
+      "name": "紫莲刚玉",
+      "priceRaw": "1000",
+      "price": 1000,
+      "limit": 100
+    },
+    {
+      "name": "奇异血脉秘药",
+      "priceRaw": "16w",
+      "price": 160000,
+      "limit": 3
+    }
+  ],
+  "matches": [],
+  "notification": null
 }
