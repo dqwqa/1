@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-15T11:47:22.476Z",
-  "checkedAtBeijing": "2026-11-15 19:47:22",
+  "checkedAt": "2026-11-15T15:35:58.196Z",
+  "checkedAtBeijing": "2026-11-15 23:35:58",
   "slot": {
-    "index": 3,
-    "startHour": 16,
-    "endHour": 20,
-    "label": "16:00-20:00",
-    "key": "2026-11-15-16",
+    "index": 4,
+    "startHour": 20,
+    "endHour": 24,
+    "label": "20:00-24:00",
+    "key": "2026-11-15-20",
     "date": "2026-11-15"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "666c8f0d44d3034dcbdd1e800ff94e565ae61c7e87112341e60cae2ebf35cc5e",
+  "signature": "91ebe522dd18c27cb569cd960b3ffbe1eb8b4bbe7bcaf5e37add8d35ce95e3f6",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-11-15 19:47:23",
-    "responseDate": "Sun, 15 Nov 2026 11:47:23 GMT",
+    "serverNowBeijing": "2026-11-15 23:35:58",
+    "responseDate": "Sun, 15 Nov 2026 15:35:58 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -32,7 +32,7 @@
     "auxiliarySources": [],
     "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
   },
-  "itemCount": 3,
+  "itemCount": 4,
   "items": [
     {
       "name": "变幻球",
@@ -41,16 +41,22 @@
       "limit": 200
     },
     {
-      "name": "机械血脉秘药",
-      "priceRaw": "16w",
-      "price": 160000,
-      "limit": 3
+      "name": "黑晶琉璃",
+      "priceRaw": "1000",
+      "price": 1000,
+      "limit": 100
     },
     {
-      "name": "神奇的蛋",
-      "priceRaw": "36000",
-      "price": 36000,
-      "limit": 5
+      "name": "魔力果",
+      "priceRaw": "6000",
+      "price": 6000,
+      "limit": 20
+    },
+    {
+      "name": "萌系粉尘",
+      "priceRaw": "500",
+      "price": 500,
+      "limit": 100
     }
   ],
   "matches": [],
