@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-16T06:13:27.868Z",
-  "checkedAtBeijing": "2026-11-16 14:13:27",
+  "checkedAt": "2026-11-16T12:29:30.544Z",
+  "checkedAtBeijing": "2026-11-16 20:29:30",
   "slot": {
-    "index": 2,
-    "startHour": 12,
-    "endHour": 16,
-    "label": "12:00-16:00",
-    "key": "2026-11-16-12",
+    "index": 4,
+    "startHour": 20,
+    "endHour": 24,
+    "label": "20:00-24:00",
+    "key": "2026-11-16-20",
     "date": "2026-11-16"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "351ed3766eb4baf51c40de9994571f852e81e4b75b0c5971dab6b09980e426a1",
+  "signature": "e744031776a36acb6a6afc59f6748fa75b80b9aa3d1c92c420c1d0e52bb02408",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-11-16 14:13:28",
-    "responseDate": "Mon, 16 Nov 2026 06:13:28 GMT",
+    "serverNowBeijing": "2026-11-16 20:29:31",
+    "responseDate": "Mon, 16 Nov 2026 12:29:31 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -35,16 +35,16 @@
   "itemCount": 2,
   "items": [
     {
-      "name": "黄石榴石",
+      "name": "蓝晶碧玺",
       "priceRaw": "1000",
       "price": 1000,
       "limit": 100
     },
     {
-      "name": "机械粉尘",
-      "priceRaw": "500",
-      "price": 500,
-      "limit": 100
+      "name": "神奇的蛋",
+      "priceRaw": "36000",
+      "price": 36000,
+      "limit": 5
     }
   ],
   "matches": [],
