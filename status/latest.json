@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-19T07:15:00.778Z",
-  "checkedAtBeijing": "2026-11-19 15:15:00",
+  "checkedAt": "2026-11-19T12:34:12.004Z",
+  "checkedAtBeijing": "2026-11-19 20:34:12",
   "slot": {
-    "index": 2,
-    "startHour": 12,
-    "endHour": 16,
-    "label": "12:00-16:00",
-    "key": "2026-11-19-12",
+    "index": 4,
+    "startHour": 20,
+    "endHour": 24,
+    "label": "20:00-24:00",
+    "key": "2026-11-19-20",
     "date": "2026-11-19"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "a882f304783e4026c07f73d01686926b5c5e311591309099c33566ed83049284",
+  "signature": "3fd2440674dca56439509d8c8b54781787071e87b461566e02e562477ebf86e7",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-11-19 15:15:01",
-    "responseDate": "Thu, 19 Nov 2026 07:15:01 GMT",
+    "serverNowBeijing": "2026-11-19 20:34:15",
+    "responseDate": "Thu, 19 Nov 2026 12:34:15 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -32,25 +32,13 @@
     "auxiliarySources": [],
     "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
   },
-  "itemCount": 3,
+  "itemCount": 1,
   "items": [
-    {
-      "name": "黄石榴石",
-      "priceRaw": "1000",
-      "price": 1000,
-      "limit": 100
-    },
     {
       "name": "神奇的蛋",
       "priceRaw": "36000",
       "price": 36000,
       "limit": 5
-    },
-    {
-      "name": "电系粉尘",
-      "priceRaw": "500",
-      "price": 500,
-      "limit": 100
     }
   ],
   "matches": [],
