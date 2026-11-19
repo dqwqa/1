@@ -1,7 +1,14 @@
 {
-  "checkedAt": "2026-11-18T20:03:11.359Z",
-  "checkedAtBeijing": "2026-11-19 04:03:11",
-  "slot": null,
+  "checkedAt": "2026-11-19T07:15:00.778Z",
+  "checkedAtBeijing": "2026-11-19 15:15:00",
+  "slot": {
+    "index": 2,
+    "startHour": 12,
+    "endHour": 16,
+    "label": "12:00-16:00",
+    "key": "2026-11-19-12",
+    "date": "2026-11-19"
+  },
   "watchItems": [
     "国王球",
     "棱镜球",
@@ -11,6 +18,41 @@
     "首领血脉秘药",
     "祝福项坠"
   ],
-  "status": "closed",
-  "message": "当前不在远行商人营业时间"
+  "status": "ok",
+  "signature": "a882f304783e4026c07f73d01686926b5c5e311591309099c33566ed83049284",
+  "primary": {
+    "source": "onebiji",
+    "transport": "http",
+    "serverNowBeijing": "2026-11-19 15:15:01",
+    "responseDate": "Thu, 19 Nov 2026 07:15:01 GMT",
+    "doubleReadConsistent": true
+  },
+  "sourcePolicy": {
+    "authoritativeSource": "onebiji",
+    "auxiliarySources": [],
+    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
+  },
+  "itemCount": 3,
+  "items": [
+    {
+      "name": "黄石榴石",
+      "priceRaw": "1000",
+      "price": 1000,
+      "limit": 100
+    },
+    {
+      "name": "神奇的蛋",
+      "priceRaw": "36000",
+      "price": 36000,
+      "limit": 5
+    },
+    {
+      "name": "电系粉尘",
+      "priceRaw": "500",
+      "price": 500,
+      "limit": 100
+    }
+  ],
+  "matches": [],
+  "notification": null
 }
