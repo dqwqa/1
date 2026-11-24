@@ -1,7 +1,14 @@
 {
-  "checkedAt": "2026-11-23T23:27:59.206Z",
-  "checkedAtBeijing": "2026-11-24 07:27:59",
-  "slot": null,
+  "checkedAt": "2026-11-24T09:43:44.843Z",
+  "checkedAtBeijing": "2026-11-24 17:43:44",
+  "slot": {
+    "index": 3,
+    "startHour": 16,
+    "endHour": 20,
+    "label": "16:00-20:00",
+    "key": "2026-11-24-16",
+    "date": "2026-11-24"
+  },
   "watchItems": [
     "国王球",
     "棱镜球",
@@ -11,6 +18,41 @@
     "首领血脉秘药",
     "祝福项坠"
   ],
-  "status": "closed",
-  "message": "当前不在远行商人营业时间"
+  "status": "ok",
+  "signature": "91634de39fa6e9b47594b49231e19f7f48f260bcf3fffd153457c8e6f8fc3e54",
+  "primary": {
+    "source": "onebiji",
+    "transport": "http",
+    "serverNowBeijing": "2026-11-24 17:43:45",
+    "responseDate": "Tue, 24 Nov 2026 09:43:45 GMT",
+    "doubleReadConsistent": true
+  },
+  "sourcePolicy": {
+    "authoritativeSource": "onebiji",
+    "auxiliarySources": [],
+    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
+  },
+  "itemCount": 3,
+  "items": [
+    {
+      "name": "光系血脉秘药",
+      "priceRaw": "16w",
+      "price": 160000,
+      "limit": 3
+    },
+    {
+      "name": "草系粉尘",
+      "priceRaw": "500",
+      "price": 500,
+      "limit": 100
+    },
+    {
+      "name": "火系粉尘",
+      "priceRaw": "500",
+      "price": 500,
+      "limit": 100
+    }
+  ],
+  "matches": [],
+  "notification": null
 }
