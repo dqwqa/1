@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-25T08:18:22.010Z",
-  "checkedAtBeijing": "2026-11-25 16:18:22",
+  "checkedAt": "2026-11-25T13:58:01.251Z",
+  "checkedAtBeijing": "2026-11-25 21:58:01",
   "slot": {
-    "index": 3,
-    "startHour": 16,
-    "endHour": 20,
-    "label": "16:00-20:00",
-    "key": "2026-11-25-16",
+    "index": 4,
+    "startHour": 20,
+    "endHour": 24,
+    "label": "20:00-24:00",
+    "key": "2026-11-25-20",
     "date": "2026-11-25"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "65c66b95c1ad37e6253810c930ae77403070a2ad147b50a50e616a76818d4b1f",
+  "signature": "9efb0b86214f606e60dd1e27e24505271abd9b01c9de11d6b627d32ccd053832",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-11-25 16:18:22",
-    "responseDate": "Wed, 25 Nov 2026 08:18:22 GMT",
+    "serverNowBeijing": "2026-11-25 21:58:01",
+    "responseDate": "Wed, 25 Nov 2026 13:58:02 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -32,12 +32,24 @@
     "auxiliarySources": [],
     "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
   },
-  "itemCount": 1,
+  "itemCount": 3,
   "items": [
     {
       "name": "黄石榴石",
       "priceRaw": "1000",
       "price": 1000,
+      "limit": 100
+    },
+    {
+      "name": "魔力果",
+      "priceRaw": "6000",
+      "price": 6000,
+      "limit": 20
+    },
+    {
+      "name": "恶系粉尘",
+      "priceRaw": "500",
+      "price": 500,
       "limit": 100
     }
   ],
