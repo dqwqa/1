@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-27T08:11:58.646Z",
-  "checkedAtBeijing": "2026-11-27 16:11:58",
+  "checkedAt": "2026-11-27T13:32:29.440Z",
+  "checkedAtBeijing": "2026-11-27 21:32:29",
   "slot": {
-    "index": 3,
-    "startHour": 16,
-    "endHour": 20,
-    "label": "16:00-20:00",
-    "key": "2026-11-27-16",
+    "index": 4,
+    "startHour": 20,
+    "endHour": 24,
+    "label": "20:00-24:00",
+    "key": "2026-11-27-20",
     "date": "2026-11-27"
   },
   "watchItems": [
@@ -19,12 +19,12 @@
     "祝福项坠"
   ],
   "status": "ok",
-  "signature": "f4e58b1d0fa47bcb42b4699ff76104bb6584ffbe42312aa8212a7ee09c50798d",
+  "signature": "d2a23d8a906c56a13b757de5bf27d546d4aa2e8c6bfb463cf8e8165e7d607d88",
   "primary": {
     "source": "onebiji",
     "transport": "http",
-    "serverNowBeijing": "2026-11-27 16:11:59",
-    "responseDate": "Fri, 27 Nov 2026 08:11:59 GMT",
+    "serverNowBeijing": "2026-11-27 21:32:30",
+    "responseDate": "Fri, 27 Nov 2026 13:32:30 GMT",
     "doubleReadConsistent": true
   },
   "sourcePolicy": {
@@ -32,7 +32,7 @@
     "auxiliarySources": [],
     "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
   },
-  "itemCount": 2,
+  "itemCount": 3,
   "items": [
     {
       "name": "好战球",
@@ -41,9 +41,15 @@
       "limit": 100
     },
     {
-      "name": "黄石榴石",
+      "name": "黑晶琉璃",
       "priceRaw": "1000",
       "price": 1000,
+      "limit": 100
+    },
+    {
+      "name": "冰系粉尘",
+      "priceRaw": "500",
+      "price": 500,
       "limit": 100
     }
   ],
