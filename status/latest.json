@@ -1,7 +1,14 @@
 {
-  "checkedAt": "2026-11-26T20:59:56.801Z",
-  "checkedAtBeijing": "2026-11-27 04:59:56",
-  "slot": null,
+  "checkedAt": "2026-11-27T08:11:58.646Z",
+  "checkedAtBeijing": "2026-11-27 16:11:58",
+  "slot": {
+    "index": 3,
+    "startHour": 16,
+    "endHour": 20,
+    "label": "16:00-20:00",
+    "key": "2026-11-27-16",
+    "date": "2026-11-27"
+  },
   "watchItems": [
     "国王球",
     "棱镜球",
@@ -11,6 +18,35 @@
     "首领血脉秘药",
     "祝福项坠"
   ],
-  "status": "closed",
-  "message": "当前不在远行商人营业时间"
+  "status": "ok",
+  "signature": "f4e58b1d0fa47bcb42b4699ff76104bb6584ffbe42312aa8212a7ee09c50798d",
+  "primary": {
+    "source": "onebiji",
+    "transport": "http",
+    "serverNowBeijing": "2026-11-27 16:11:59",
+    "responseDate": "Fri, 27 Nov 2026 08:11:59 GMT",
+    "doubleReadConsistent": true
+  },
+  "sourcePolicy": {
+    "authoritativeSource": "onebiji",
+    "auxiliarySources": [],
+    "note": "仅使用好游快爆实时商品卡片；未调用任何辅助数据源"
+  },
+  "itemCount": 2,
+  "items": [
+    {
+      "name": "好战球",
+      "priceRaw": "3000",
+      "price": 3000,
+      "limit": 100
+    },
+    {
+      "name": "黄石榴石",
+      "priceRaw": "1000",
+      "price": 1000,
+      "limit": 100
+    }
+  ],
+  "matches": [],
+  "notification": null
 }
